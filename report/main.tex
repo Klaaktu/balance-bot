@@ -1,0 +1,235 @@
+\documentclass[9pt,a4paper,twocolumn,twoside]{tau-class/tau}
+
+\usepackage{listings}
+
+\lstset{
+    language=C++,
+}
+
+\title{Design and Build a Balancing Robot}
+
+\author{Name\thanks{email@anu.edu.au}}
+
+\affil[1]{Research School of Physics, Australian National University, Canberra ACT, 2601, Australia}
+
+\begin{abstract}
+\end{abstract}
+
+\begin{document}
+
+\maketitle
+
+\section{Executive Summary}
+Executive Summary
+
+\section{Introduction}
+Introduction
+
+\section{Requirements Review}
+The primary objective of this project is to build an autonomous self-balancing robot which is able to follow an designated path. To achieve this, the listed specific requirements are as follows:
+\begin{itemize}
+	\item Top-level requirements: \begin{itemize}
+	\item The robot must maintain its balanced position without any falling cases.
+	\item If the robot is perturbed externally (e.g., a deliberated push, or an obstacle collided), it must be able to return balanced within $2s$. The perturbation is defined as changing its pitch angle up to $15^\circ$.
+	\item Without perturbation, the robot must balance itself in a small range. It must not move more than $0.5m$ in $1s$.
+	\end{itemize}
+
+	\item Electronic components:\begin{itemize}
+	\item The robot must be able to sense its angle or velocity at $>10Hz$. The resolution of angle must be $<0.5^\circ$.
+	\item The robot must take action within $0.1s$ after a controlling signal is sent.
+	\item The electronics must be stable during its runtime.
+	\item After turning on,  the robot must work entirely independently, including power supply, signal processing, and controlling.
+	\end{itemize}
+
+	\item Physical structure:\begin{itemize}
+	\item The structure must be stable enough that the position of mass center doesn't change.
+	\item The chassis must be sturdy, which can resist damage when the robot falls in some cases.
+	\end{itemize}
+\end{itemize}
+
+
+\section{Design Details and Analysis}
+
+\subsection{Control Logic}
+
+\figref{fig:basic_balancing_flowchart} shows the flowchart of the balancing logic of the robot. It's the basic logic, which aims to keep the robot balanced without any advanced action. It is based on the PID controller in the feedback control, using the output to tune its input until the robot is balanced. \coderef{lst:arduino_logic_code} shows the logical code written in Arduino IDE.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\columnwidth]{figures/basic_balancing.pdf}
+    \caption{Flowchart of basic balancing logic. After turning on, the robot keeps reading its state, such as the pitch angle or the angular velocity of y-axis. If it's not strongly unbalanced, PID controller is used to generate an output from the state. The output is used to control the robot, such as moving forward or turn left. The feedback loop can balance the robot theoretically.}
+    \label{fig:basic_balancing_flowchart}
+\end{figure}
+
+\begin{lstlisting}[caption={Main logical code in Arduino IDE.}, label={lst:arduino_logic_code}]
+void setup() {
+  Serial.begin(115200);
+  setupSuccess &= connectImu();
+  setupSuccess &= connectPID();
+  setupSuccess &= connectMotor();
+  Serial.print(F("Setup succeed: "));
+  Serial.println(setupSuccess);
+}
+
+void loop() {
+  if (!setupSuccess) { return; }
+  if (!imuHasData) { return; }
+  if (!getImuAngle()) { return; }
+  getMotorValue();
+  driveMotor();
+}
+\end{lstlisting}
+
+\subsection{Electronic Components}
+To achieve the main goal, the electronic components corresponding to the control logic should contain these part: a state sensor, a central processor, an action driver, and power supply.
+
+\subsubsection{The state sensor}
+MPU-6050 inertial measurement unit (IMU)
+
+\subsubsection{The central processor}
+Arduino UNO
+
+\subsubsection{The action driver}
+L298N motor driver, Two motors and wheels
+
+\subsubsection{Power supply}
+Batteries, Breadboard
+
+\subsubsection{Wiring structure}
+
+
+The electronic components used are: 
+\begin{itemize}
+  \item Arduino UNO \begin{itemize}
+    \item Pins: 14 Digital I/O pins, 6 PWM pins, 6 Analog input pins
+    \item Supported communications: I2C, SPI, UART
+    \item Power: Input voltage of 7-12V, I/O voltage of 5V
+    \item 
+  \end{itemize}
+  \item MPU-6050 inertial measurement unit (IMU)
+  \item L298N motor driver
+  \item Two motors and wheels
+  \item Batteries
+  \item Breadboard
+\end{itemize}
+Arduino UNO, MPU-6050 inertial measurement unit (IMU), L298N motor driver, motors, batteries and breadboard. Arduino UNO is the core of the robot, which runs the controlling program, process signals, and connects all the components together. We upload our control code ot it with a USB B connector. IMU is used to get the accelerations and angular velocities of all 3 axises, which can be further processed into other states including angles and velocities. The motor driver can receive analog signals from UNO using pulse width modulation (PWM), which controls the rotation speed of motors with variable values. The UNO and motor driver are powered by batteries with breadboard. The wiring method is shown in \figref{fig:wire_diagram}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\columnwidth]{figures/wire_diagram.pdf}
+    \caption{Wiring diagram of the electronic components. The battery and breadboard are used to power the Arduino UNO and L298N motor driver. UNO communicates with MPU-6050 inertial measurement unit (IMU) using I2C protocol, and sends analog signal to the motor driver using pulse width modulation (PWM). The motor driver controls 2 motors.}
+    \label{fig:wire_diagram}
+\end{figure}
+
+\subsection{Signal Processing}
+
+\subsubsection{IMU data processing}
+To get the robot state, we need to process the data from the IMU. The IMU contains a 3-axis gyroscope used to measure angular velocity and a 3-axis accelerometer used to measure acceleration. One important thing we can do is to get the angle (yaw, pitch, roll) from these values. Simply, we can integral the 3 angular velocities $(\omega_x,\omega_y,\omega_z)$ to get the corresponding Euler angle. But it suffers from Gimbal Lock (for example, the results are the same whether it yaws by $30^\circ$ and then pitches by $90^\circ$, or pitches by $90^\circ$ and then rolls by $30^\circ$, which makes it difficult to determine the true yaw or roll angle). Because of this, we use quaternion $q=(q_0,q_1,q_2,q_3)$ to represent the angle state, which indicates the current state that is equivalent to rotate the initial state around an axis $(q_1,q_2,q_3)$ by an amount of $q_0$. The current quaternion is given by:
+\begin{equation}
+	q_n=q_{n-1}+\frac{\Delta t}{2}\cdot q_{n-1}\otimes\omega
+\end{equation}
+
+Another method to get quaternion is using the accelerations $(a_x,a_y,a_z)$. Because there is a constant gravity of $\approx9.8m\cdot s^{-2}$, we can know the quaternion by comparing the direction of measured acceleration with the true gravity. However, this method is noisy, while using gyroscope can produce drift over a long time. Therefore, we can use a weighted average of these two methods.
+
+There are many states we can get from the quaternion. For example:
+
+\begin{align}
+	\text{Pitch: }&\theta=\arcsin{(2(q_0q_2-q_3q_1))}\\
+	\text{Yaw: }&\psi=\arctan{\frac{2(q_0q_3+q_1q_2)}{1-2(q_2^2+q_3^2)}}\\
+	\text{Acceleration: }&a_\text{world}=q\otimes(0,a_x,a_y,a_z)\otimes q^{-1}
+\end{align}
+
+Most calculations mentioned above can be done by the IMU module or some libraries (e.g., \texttt{i2cdevlib/Arduino/MPU6050})
+
+\subsubsection{PID controller}
+PID (Proportional-Integral-Derivative) controller is the core of the feedback system. By comparing the current state $S(t)$ with the desired state, we get an error term $e(t)$. Using $e(t)$ as the input of PID controller, we can use the output $u(t)$ to drive the current state toward the desired state. The output expression is given by:
+\begin{equation}
+	u(t)=K_pe(t)+K_i\int_{0}^{t}{d\tau\,e(\tau)}+K_d\frac{de(t)}{dt}
+\end{equation}
+
+The Proportional term means that the larger the error is, the large the output is to restore the state. The Integral term means that the longer the error persists, the large the output is to further restore the state. The Derivative term means that the faster the error decreases, the smaller the output is to reduce oscillation. The three terms have individual coefficients ($K_p$, $K_i$, $K_d$). Their combinations vary widely across different situations. By tunning these coefficients and looking for a precise balancing state, we can achieve better feedback performance.
+
+\subsubsection{Pulse width modulation}
+In order to control the robot smoothly and continuously, we need analog signals to do the task. However, the UNO has only digital output, which means the output voltage can be either HIGH level or LOW level without any values in between. PWM can solve this problem. Instead of encoding signals to voltage level, it produces a train of pulses as the output, and encodes signals to the width of each pulse. Meanwhile, our motor driver is able to receive PWM signals. In this way, there are much more available values to control.
+
+
+\subsection{Mechanical Design}
+
+\subsubsection{Physical model analysis}
+\figref{fig:physical_model} shows the simplified physical model of the robot. We can use Lagrangian mechanics to analyze the relationship between $F$ and $\theta$, $x$. The system Lagrangian and Euler–Lagrange equations are given by:
+\begin{equation}
+	L=\frac{1}{2}M\dot{x}^2+\frac{1}{2}m\left[(\dot{x}+l\dot{\theta}\cos{\theta})^2+(l\dot{\theta}\sin{\theta})^2\right]-mgl\cos{\theta}
+\end{equation}
+
+\begin{align}
+	\frac{d}{dt}\frac{\partial L}{\partial\dot{x}}-\frac{\partial L}{\partial x}=F\quad&\Longrightarrow\quad(M+m)\ddot{x}+ml\ddot{\theta}\cos{\theta}-ml\dot{\theta}^2\sin{\theta}=F\label{eq:el_eq1}\\
+	\frac{d}{dt}\frac{\partial L}{\partial\dot{\theta}}-\frac{\partial L}{\partial\theta}=0\quad&\Longrightarrow\quad \ddot{x}\cos{\theta}+l\ddot{\theta}-g\sin{\theta}=0\label{eq:el_eq2}
+\end{align}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.6\columnwidth]{figures/physical_model.pdf}
+    \caption{A simplified physical model of the robot. Constrain the movement in 1 dimension. THe model consists of a wheel with mass $M$, a body mass center $m$, and a light stick connecting these two with length $l$. The action of wheel is simplified as a force $F$. Assume the robot is at position $x$ and its pitch angle is $\theta$.}
+    \label{fig:physical_model}
+\end{figure}
+
+Usually, we care about the dynamic of $\theta$, which can be derived from \equref{eq:el_eq1} and \equref{eq:el_eq2}:
+
+\begin{equation}
+	\ddot{\theta}=\frac{(M+m)g\sin{\theta}-F\cos{\theta}}{(M+m\sin^2{\theta})l}-\frac{m\dot{\theta}^2\sin{2\theta}}{2(M+m\sin^2{\theta})}
+    \label{eq:theta_dynamic}
+\end{equation}
+
+According to the model \figref{fig:physical_model} and this \equref{eq:theta_dynamic}, we can analyze some cases:
+\begin{itemize}
+	\item The robot is perfectly at the balanced state, but a perturbation happens before the controller realizes it (i.e., $\theta\gtrapprox0$, $F=\dot{\theta}=0$). In this case, $\ddot{\theta}\approx\frac{(M+m)g\sin{\theta}}{lM}$. To save time for the controller to realize before $\theta$ becomes too large, we want $\ddot{\theta}$ to be as small as possible, which means we need to use small $m$ and/or large $l$.
+	\item The robot is at an unbalanced but stable state (i.e., $\theta>0$, $\ddot{\theta}\approx\dot{\theta}\approx0$). To keep a constant $\theta$, it's necessary to make $F=(M+m)g\tan{\theta}$. However, because of the limit of motor power, $F$ can be maintained for only a short time before the large speed brings large resistance. So we should make $F>(M+m)g\tan{\theta}$ to bring back balance before the saturation of motors.
+	\item The robot is severely unbalanced (i.e., $\theta>0$, $\dot{\theta}>0$). In this case, the only possible way to balance the robot is to make $\ddot{\theta}$ as negative as possible (i.e., $\ddot{\theta}\ll0$). To achieve this, we need to use a combination of large $F>(M+m)g\tan{\theta}$ and small $l$.
+	\item The robot is inverted (i.e., $90^\circ<\theta<270^\circ$ ($l<R_\text{wheel}$), $l=0$, or $m=0$). Now the robot is impossible to return to the desired balanced state (or the balanced state can't be defined), but becomes permanently stable.
+\end{itemize}
+In conclusion, a motor being able to produce huge $F$ is wanted for all the cases. Similarly, it's good to have small $m$, $M$, and/or $\frac{m}{M}$. Large $l$ is suitable for peaceful environment and high balance performance, while small $l$ or inverted robot is suitable for severe environment and high controllability. 
+
+\subsubsection{Chassis}
+We use CAD (Autodesk Fusion) to design the chassis model, and 3D-print the model. The chassis is designed with many components in the experimental stage to make some components easier to update. These components are assembled using M3 bolts and nuts. For the final design, all the components are combined into a whole one to make the chassis stable.
+
+In Fusion, the chassis is designed with the help of the models of other electronic components. Official datasheets of the electronic components are also used. In this way, it's precise and accurate to design the size and position of chassis components and through holes. One of our CAD model designs is shown in \figref{fig:chassis_design}.
+\begin{figure}[htbp]
+  \centering
+  \begin{subfigure}{0.8\columnwidth}
+    \includegraphics[width=\linewidth]{figures/front_top_side.pdf}
+    \caption{Front-top-side view}
+  \end{subfigure}
+
+  \vspace{\baselineskip}
+
+  \begin{subfigure}{0.8\columnwidth}
+    \includegraphics[width=\linewidth]{figures/assembly_manual.pdf}
+    \caption{Robot components and assembly}
+  \end{subfigure}
+  \caption{A chassis model design.}
+  \label{fig:chassis_design}
+\end{figure}
+
+PrusaSlicer is used to convert CAD models to 3D-printing code. The printer uses PLA as the filament with diameter of $1.75mm$. To make our chassis sturdy, we use layer height of $0.3mm$. The vertical shells is set to 4 perimeters, and the horizontal shells is set to 4 top layers and 4 bottom layers. Since most of our chassis consist of plates of $3mm$, these parameters are sufficient to make our chassis solid. The fill density is set to $15\%$. 
+
+\subsection{Current Progress}
+Current Progress
+
+\section{Project Management}
+
+\subsection{Responsibilities}
+Responsibilities
+
+
+\subsection{Timeline}
+Timeline
+
+\subsection{Budget}
+Budget
+
+\section{Conclusion}
+Conclusion
+
+\printbibliography
+
+\end{document}
