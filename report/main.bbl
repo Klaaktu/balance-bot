@@ -16,5 +16,103 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global/global}
+    \entry{mpu6050_datasheet}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=4c6107cad7e7aac980f9eef9765e3aa8}{%
+           family={{InvenSense, Inc.}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {InvenSense (TDK Group)}%
+      }
+      \strng{namehash}{4c6107cad7e7aac980f9eef9765e3aa8}
+      \strng{fullhash}{4c6107cad7e7aac980f9eef9765e3aa8}
+      \strng{fullhashraw}{4c6107cad7e7aac980f9eef9765e3aa8}
+      \strng{bibnamehash}{4c6107cad7e7aac980f9eef9765e3aa8}
+      \strng{authorbibnamehash}{4c6107cad7e7aac980f9eef9765e3aa8}
+      \strng{authornamehash}{4c6107cad7e7aac980f9eef9765e3aa8}
+      \strng{authorfullhash}{4c6107cad7e7aac980f9eef9765e3aa8}
+      \strng{authorfullhashraw}{4c6107cad7e7aac980f9eef9765e3aa8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{Accessed: 2026-04-01}
+      \field{number}{PS-MPU-6000A-00}
+      \field{title}{MPU-6000 and MPU-6050 Product Specification}
+      \field{version}{3.4}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf
+      \endverb
+      \verb{url}
+      \verb https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf
+      \endverb
+    \endentry
+    \entry{arduino_uno_datasheet}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=ee5bced252ab77ec8d633c1afda7c5da}{%
+           family={{Arduino}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{fullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{fullhashraw}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{bibnamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorbibnamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authornamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorfullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorfullhashraw}{ee5bced252ab77ec8d633c1afda7c5da}
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-01}
+      \field{title}{Arduino Uno Rev3}
+      \field{year}{n.d.}
+      \verb{urlraw}
+      \verb https://docs.arduino.cc/hardware/uno-rev3/
+      \endverb
+      \verb{url}
+      \verb https://docs.arduino.cc/hardware/uno-rev3/
+      \endverb
+    \endentry
+    \entry{l298n_datasheet}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=6f1d674161baca0ec6337db1e97b8932}{%
+           family={{Handson Technology}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Handson Technology}%
+      }
+      \strng{namehash}{6f1d674161baca0ec6337db1e97b8932}
+      \strng{fullhash}{6f1d674161baca0ec6337db1e97b8932}
+      \strng{fullhashraw}{6f1d674161baca0ec6337db1e97b8932}
+      \strng{bibnamehash}{6f1d674161baca0ec6337db1e97b8932}
+      \strng{authorbibnamehash}{6f1d674161baca0ec6337db1e97b8932}
+      \strng{authornamehash}{6f1d674161baca0ec6337db1e97b8932}
+      \strng{authorfullhash}{6f1d674161baca0ec6337db1e97b8932}
+      \strng{authorfullhashraw}{6f1d674161baca0ec6337db1e97b8932}
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-04-01}
+      \field{title}{L298N Motor Driver Module Datasheet}
+      \field{year}{n.d.}
+      \verb{urlraw}
+      \verb https://www.handsontec.com/dataspecs/L298N%20Motor%20Driver.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.handsontec.com/dataspecs/L298N%20Motor%20Driver.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

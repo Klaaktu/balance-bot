@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1774843662.18626 -1
-  "main.bcf" 1774843660 108646 2ab0010db1c63080296eaa360afeea36 "pdflatex"
-  "tau.bib" 1774667155 805 16145235bcf8d2bad858f17643d2872e ""
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1775047167.21151 -1
+  "main.bcf" 1775047166 109082 9e72dc598045f9c6b2b15f77f1cfc8c2 "pdflatex"
+  "tau.bib" 1775028164 1059 602ffbc998c5da62e70cbcfb40ebfeed ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1774843650.35913 "c:/setGF/Study/ANU/PHYS6701 - Rapid Prototyping/Balancing Robot/Report/main.tex" "main.pdf" "main" 1774843662.18936 0
+["pdflatex"] 1775047160.50575 "c:/setGF/Study/ANU/PHYS6701 - Rapid Prototyping/Balancing Robot/Report/main.tex" "main.pdf" "main" 1775047167.21303 0
   "c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_d4q673.enc" 1743913975 2978 6d777d1174162fa94ff58f36782f4570 ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc" 1743913975 3071 cfa92ee28d698dd9275559d9d1c3a233 ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathbb.enc" 1743920832 2904 e0faa515d685129700e18ca6e0e2b48f ""
@@ -44,6 +44,7 @@
   "c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/stix2-mathsfit.tfm" 1743920832 1964 080fe4119d24dfa21545a87045bb93d1 ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/stix2-mathtt.tfm" 1743920832 1468 476d30739d7bde27ef978647fed37255 ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text-bold.tfm" 1743920832 28532 15c9fc954b1440700b35aab90bfb9230 ""
+  "c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text-italic.tfm" 1743920832 30900 0903f6d37c44d064d62d9c928b7560fc ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text.tfm" 1743920832 28540 097ba14dab39294b86bfe4de12d2fe0b ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/ts1-stix2text.tfm" 1743920832 1460 ab4098db9455eb1e01cadc3c0fc30c5f ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb" 1743913976 192962 677a511de49a461a6e76d8993cb33c92 ""
@@ -53,6 +54,7 @@
   "c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb" 1743913976 457228 138511904675f7cba1865e729bee2afc ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Math.pfb" 1743920832 1095268 4fd994f914ee142eaad270af2560a124 ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Bold.pfb" 1743920832 537414 8a24a275307d2027c2020e80ac838391 ""
+  "c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Italic.pfb" 1743920832 452561 b7e8af146cfe341d4e325342c5da95f1 ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb" 1743920832 526217 c42995c1b96f9d08500117860b526dd8 ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraMono-Regular-tosf-t1.vf" 1743913976 1696 af65436ccdde59c952e95f8cc457dbb5 ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf" 1743913976 1724 1ac6e230aa57cf8ba8f965fbceffd874 ""
@@ -317,16 +319,16 @@
   "c:/Program Files/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743923273 5546875 71bd1211cca9460e7983e413c441eb9f ""
   "c:/Program Files/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743923444 3346183 513f6a9d1760d865aaa244755c88be0e ""
   "c:/Program Files/texlive/2025/texmf.cnf" 1743923231 713 e69b156964470283e0530f5060668171 ""
-  "c:/setGF/Study/ANU/PHYS6701 - Rapid Prototyping/Balancing Robot/Report/main.tex" 1774843635 14464 6210789dc27d4c8cced1734c8897f6c2 ""
+  "c:/setGF/Study/ANU/PHYS6701 - Rapid Prototyping/Balancing Robot/Report/main.tex" 1775047153 26418 71f303a5b724d384c39cdc9fa4967568 ""
   "figures/assembly_manual.pdf" 1774664071 808105 9c3423a3647fa3835619c2fd5891e325 ""
-  "figures/basic_balancing.pdf" 1774514309 25301 5dd6034528603d23c3f2cc1fb9d42d47 ""
+  "figures/basic_balancing.pdf" 1775041437 23561 f870d38dc1b7643c34be0376b970eae9 ""
   "figures/front_top_side.pdf" 1774662705 24508 b07d0130f8d81007ed21b2b746140788 ""
   "figures/physical_model.pdf" 1774593096 21920 77ce6b420f712fff63f2a3c52059a945 ""
   "figures/wire_diagram.pdf" 1774665257 808831 793ce6ed2ac7cf83af937d9d02e062fd ""
-  "main.aux" 1774843660 13207 bb4d4aa957429d49927849b7cbd6bcb2 "pdflatex"
-  "main.bbl" 1774667826 486 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.run.xml" 1774843660 2367 a824c96d47a069a0d2c99a0d837f536d "pdflatex"
-  "main.tex" 1774843635 14464 6210789dc27d4c8cced1734c8897f6c2 ""
+  "main.aux" 1775047166 18621 8d47e6b38b724a49d6fc0a8ca7890968 "pdflatex"
+  "main.bbl" 1775028176 4540 cf1ea3dbaffb6a2bb0c472d069d6f158 "biber main"
+  "main.run.xml" 1775047166 2367 a824c96d47a069a0d2c99a0d837f536d "pdflatex"
+  "main.tex" 1775047153 26418 71f303a5b724d384c39cdc9fa4967568 ""
   "tau-class/tau.cls" 1774673511 16637 e084a6b3a3945ace82bbd0889626bbab ""
   "tau-class/taubabel.sty" 1774667155 3672 1ef12c3a95220b69aa6ab01dd68fcd33 ""
   "tau-class/tauenvs.sty" 1774667155 2831 e86de0317572edc6f1be19b58a727dd1 ""

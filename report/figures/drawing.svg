@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="16"
-     inkscape:cx="248.8125"
-     inkscape:cy="677.78125"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="308.7405"
+     inkscape:cy="495.23991"
      inkscape:window-width="2560"
      inkscape:window-height="1494"
      inkscape:window-x="-11"
@@ -121,7 +121,8 @@
        inkscape:label="logic flow chart">
       <g
          id="g2"
-         inkscape:label="start">
+         inkscape:label="start"
+         transform="translate(-0.99999988)">
         <rect
            style="fill:#00cc00;fill-opacity:0.4;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
            id="rect1"
@@ -175,67 +176,79 @@
         <rect
            style="fill:#6699ff;fill-opacity:0.39801;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
            id="rect2"
-           width="9.8000002"
-           height="4.8198571"
-           x="60.100002"
-           y="131.08014" />
+           width="7.8000002"
+           height="5.7999997"
+           x="61.100002"
+           y="130.59007" />
         <text
            xml:space="preserve"
-           style="font-size:1.76389px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;white-space:pre;inline-size:9;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none"
-           x="63"
+           style="font-size:1.76389px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:6.4743;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none"
+           x="66.237152"
            y="128.48656"
            id="text2"
-           transform="translate(-2.1905283,4.5435873)"><tspan
-             x="63"
+           transform="translate(-1.261418,4.720584)"><tspan
+             x="66.237152"
              y="128.48656"
-             id="tspan4">Read States </tspan><tspan
-             x="63"
+             id="tspan2">Read<tspan
+   y="128.48656"
+   id="tspan3"> </tspan></tspan><tspan
+             x="66.237152"
              y="130.25045"
-             id="tspan6">(e.g., angle)</tspan></text>
+             id="tspan6">States</tspan></text>
       </g>
       <g
          id="g3-4"
          inkscape:label="PID controller"
-         transform="translate(25.999999,1.0099231)">
+         transform="translate(27.999999,1.009923)">
         <rect
            style="fill:#6699ff;fill-opacity:0.39801;stroke:#000000;stroke-width:0.199999;stroke-dasharray:none"
            id="rect2-2"
-           width="11.8"
-           height="2.8000009"
+           width="7.8000011"
+           height="5.8000011"
            x="60.100002"
-           y="131.59007" />
+           y="130.09007" />
         <text
            xml:space="preserve"
-           style="font-size:1.76389px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;white-space:pre;inline-size:10.5453;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none"
-           x="63"
+           style="font-size:1.76389px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:8.06637;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none"
+           x="67.033188"
            y="128.48656"
            id="text2-3"
-           transform="translate(-2.2869308,5.1025324)"><tspan
-             x="63"
+           transform="translate(-3.0706657,4.2205847)"><tspan
+             x="67.033188"
              y="128.48656"
-             id="tspan7">PID Controller</tspan></text>
+             id="tspan11">Feedback<tspan
+   y="128.48656"
+   id="tspan12"> </tspan></tspan><tspan
+             x="67.033188"
+             y="130.25045"
+             id="tspan13">Control</tspan></text>
       </g>
       <g
          id="g3-4-7"
          inkscape:label="Robot action"
          transform="translate(42,1.0099231)">
         <rect
-           style="fill:#6699ff;fill-opacity:0.39801;stroke:#000000;stroke-width:0.199999;stroke-dasharray:none"
+           style="fill:#6699ff;fill-opacity:0.39801;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
            id="rect2-2-6"
-           width="9.8000011"
-           height="2.8000009"
+           width="7.8000002"
+           height="5.8000007"
            x="60.100002"
-           y="131.59007" />
+           y="130.09007" />
         <text
            xml:space="preserve"
-           style="font-size:1.76389px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;white-space:pre;inline-size:10.5453;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none"
-           x="63"
+           style="font-size:1.76389px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:7.1777;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:none"
+           x="66.588852"
            y="128.48656"
            id="text2-3-1"
-           transform="translate(-2.7395903,5.1038244)"><tspan
-             x="63"
+           transform="translate(-2.5918793,4.2218764)"><tspan
+             x="66.588852"
              y="128.48656"
-             id="tspan8">Robot Action</tspan></text>
+             id="tspan14">Robot<tspan
+   y="128.48656"
+   id="tspan15"> </tspan></tspan><tspan
+             x="66.588852"
+             y="130.25045"
+             id="tspan16">Action</tspan></text>
       </g>
       <g
          id="g4"
@@ -254,32 +267,31 @@
            transform="translate(2.2902697,-0.88194311)"><tspan
              x="69.444595"
              y="124.59901"
-             id="tspan9">Check </tspan><tspan
+             id="tspan17">Check </tspan><tspan
              x="69.444595"
              y="126.3629"
-             id="tspan10">States</tspan></text>
+             id="tspan18">States</tspan></text>
       </g>
       <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-         d="m 70.000002,132.99007 3,0 c 1,0 1,-1 1,-1 l 0,-3 c 0,-1 -1,-1 -1,-1 H 13 c 0,0 -1.000001,0 -1,1 l 2e-6,3 c 7.71e-4,1.00001 0.999998,1 0.999998,1"
+         d="m 109.9,134 2.97098,-1e-5 c 0.97902,0 0.97902,-1 0.97902,-1 v -3 c 0,-1 -0.97902,-1 -0.97902,-1 H 54.129034 c 0,0 -0.979033,0 -0.979032,1 l 2e-6,3 c 7.54e-4,1.00001 0.97903,1 0.97903,1"
          id="path6"
-         sodipodi:nodetypes="cscsccscc"
-         transform="translate(42.000001,1.0099231)" />
+         sodipodi:nodetypes="cscsccscc" />
       <path
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
-         d="m 51.99891,134 h 3.364535"
+         d="m 50.975319,133.99999 h 5.251895"
          id="path4" />
       <path
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
-         d="m 65.998137,134 h 3.364535"
+         d="m 65.000001,134 h 4.202634"
          id="path4-3" />
       <path
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
-         d="m 81.996273,134 h 3.364535"
+         d="M 81.996273,134 H 87.35976"
          id="path4-3-1" />
       <path
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
-         d="m 98.000001,134 h 3.364539"
+         d="m 95.903312,134 h 5.450928"
          id="path4-3-1-7" />
       <path
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
@@ -288,25 +300,30 @@
       <text
          xml:space="preserve"
          style="font-size:1.27px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-         x="76.75927"
-         y="138.53799"
+         x="67.705109"
+         y="138.48032"
          id="text5"><tspan
            sodipodi:role="line"
            id="tspan5"
            style="font-size:1.27px;stroke:none;stroke-width:0.3"
-           x="76.75927"
-           y="138.53799">Unbalanceable</tspan></text>
+           x="67.705109"
+           y="138.48032">Unbalanceable</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+         d="m 84.000002,134 c 0,0 0.993634,0 0.993634,1 l 1e-6,2.9944 c 0,1.0056 0.935436,0.92375 0.935436,0.92375 h 11.198474 c 0,0 0.933207,0.0819 0.933207,-0.91815 v -3 c 0,-1 0.933204,-1 0.933204,-1"
+         id="path2"
+         sodipodi:nodetypes="cssccssc" />
       <text
          xml:space="preserve"
          style="font-size:1.27px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-         x="81.511185"
-         y="133.19714"
+         x="82.718346"
+         y="133.42865"
          id="text5-8"><tspan
            sodipodi:role="line"
            id="tspan5-6"
            style="font-size:1.27px;stroke:none;stroke-width:0.3"
-           x="81.511185"
-           y="133.19714">Normal</tspan></text>
+           x="82.718346"
+           y="133.42865">Normal</tspan></text>
     </g>
     <g
        id="g36"

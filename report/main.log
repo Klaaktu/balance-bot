@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.6)  30 MAR 2026 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.6)  1 APR 2026 23:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1667,75 +1667,60 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 10.0pt on input line 22.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <9> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 26.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 9.0pt on input line 26.
 Package microtype Info: Character `textflorin ' is missing
 (microtype)             in font `TS1/stix2/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 53.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 53.
-<figures/basic_balancing.pdf, id=46, 205.76875pt x 43.16125pt>
+
+
+<figures/basic_balancing.pdf, id=45, 202.7575pt x 43.16125pt>
 File: figures/basic_balancing.pdf Graphic file (type pdf)
 <use figures/basic_balancing.pdf>
-Package pdftex.def Info: figures/basic_balancing.pdf  used on input line 59.
-(pdftex.def)             Requested size: 258.188pt x 54.16084pt.
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 64.
-LaTeX Font Info:    Trying to load font information for T1+FiraMono-TOsF on input line 64.
- (c:/Program Files/texlive/2025/texmf-dist/tex/latex/fira/T1FiraMono-TOsF.fd
-File: T1FiraMono-TOsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraMono-TOsF.
-)
-LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/m/n' in size <8> not available
-(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 64.
-LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/regular/n' will be
-(Font)              scaled to size 6.80005pt on input line 64.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraMono-TOsF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-
-LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/m/n' in size <9> not available
-(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 81.
-LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/regular/n' will be
-(Font)              scaled to size 7.65005pt on input line 81.
+Package pdftex.def Info: figures/basic_balancing.pdf  used on input line 68.
+(pdftex.def)             Requested size: 258.188pt x 54.96234pt.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/it' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/it' tried instead on input line 86.
+(Font)              Font shape `T1/FiraSans-OsF/bold/it' tried instead on input line 97.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/it' will be
-(Font)              scaled to size 8.0pt on input line 86.
-<figures/wire_diagram.pdf, id=48, 689.57625pt x 410.53375pt>
-File: figures/wire_diagram.pdf Graphic file (type pdf)
-<use figures/wire_diagram.pdf>
-Package pdftex.def Info: figures/wire_diagram.pdf  used on input line 117.
-(pdftex.def)             Requested size: 258.188pt x 153.71173pt.
+(Font)              scaled to size 8.0pt on input line 97.
+
+Overfull \hbox (6.24602pt too wide) in paragraph at lines 102--124
+ [][] 
+ []
+
 
 
 [1{c:/Program Files/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-t1.enc}
 
 
-{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-ts1.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathrm.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathit.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathscr.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_d4q673.enc} <./figures/basic_balancing.pdf>]
+{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-ts1.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathrm.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathit.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathscr.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathex.enc} <./figures/basic_balancing.pdf>]
+<figures/wire_diagram.pdf, id=93, 689.57625pt x 410.53375pt>
+File: figures/wire_diagram.pdf Graphic file (type pdf)
+<use figures/wire_diagram.pdf>
+Package pdftex.def Info: figures/wire_diagram.pdf  used on input line 198.
+(pdftex.def)             Requested size: 258.188pt x 153.71173pt.
 
-<figures/physical_model.pdf, id=105, 49.18375pt x 37.13875pt>
+
+<figures/physical_model.pdf, id=95, 49.18375pt x 37.13875pt>
 File: figures/physical_model.pdf Graphic file (type pdf)
 <use figures/physical_model.pdf>
-Package pdftex.def Info: figures/physical_model.pdf  used on input line 169.
+Package pdftex.def Info: figures/physical_model.pdf  used on input line 218.
 (pdftex.def)             Requested size: 154.91437pt x 117.0041pt.
 
 
-[2{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathcal.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathex.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathsf.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathbb.enc} <./figures/wire_diagram.pdf> <./figures/physical_model.pdf>]
-<figures/front_top_side.pdf, id=329, 415.5525pt x 470.75874pt>
+[2{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathsf.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathbb.enc} <./figures/wire_diagram.pdf> <./figures/physical_model.pdf>]
+<figures/front_top_side.pdf, id=317, 415.5525pt x 470.75874pt>
 File: figures/front_top_side.pdf Graphic file (type pdf)
 <use figures/front_top_side.pdf>
-Package pdftex.def Info: figures/front_top_side.pdf  used on input line 197.
+Package pdftex.def Info: figures/front_top_side.pdf  used on input line 246.
 (pdftex.def)             Requested size: 206.55118pt x 233.99243pt.
-<figures/assembly_manual.pdf, id=330, 528.97626pt x 557.08125pt>
+<figures/assembly_manual.pdf, id=318, 528.97626pt x 557.08125pt>
 File: figures/assembly_manual.pdf Graphic file (type pdf)
 <use figures/assembly_manual.pdf>
-Package pdftex.def Info: figures/assembly_manual.pdf  used on input line 204.
+Package pdftex.def Info: figures/assembly_manual.pdf  used on input line 253.
 (pdftex.def)             Requested size: 206.55118pt x 217.52432pt.
-
-
-LaTeX Warning: Empty bibliography on input line 231.
-
 
 
 
@@ -1743,9 +1728,35 @@ LaTeX Warning: Empty bibliography on input line 231.
 [3 <./figures/front_top_side.pdf> <./figures/assembly_manual.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/assembly_manual.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] 
+>]
+LaTeX Font Info:    Trying to load font information for T1+FiraMono-TOsF on input line 273.
+ (c:/Program Files/texlive/2025/texmf-dist/tex/latex/fira/T1FiraMono-TOsF.fd
+File: T1FiraMono-TOsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraMono-TOsF.
+)
+LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/m/n' in size <9> not available
+(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 273.
+LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/regular/n' will be
+(Font)              scaled to size 7.65005pt on input line 273.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraMono-TOsF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 313.
+LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/m/n' in size <8> not available
+(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 313.
+LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/regular/n' will be
+(Font)              scaled to size 6.80005pt on input line 313.
+
+
+[4{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_d4q673.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathcal.enc}]
+
+
+
+[5] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20260330150731 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted cleantemp  --timestamp 20260401233921 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
 (./main.aux)
  ***********
@@ -1757,21 +1768,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53973 strings out of 473190
- 1087119 string characters out of 5713728
- 2180510 words of memory out of 5000000
- 76143 multiletter control sequences out of 15000+600000
- 874567 words of font info for 271 fonts, out of 8000000 for 9000
+ 54327 strings out of 473190
+ 1094111 string characters out of 5713728
+ 2210496 words of memory out of 5000000
+ 76450 multiletter control sequences out of 15000+600000
+ 884054 words of font info for 282 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,12n,143p,1074b,1783s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 137i,12n,143p,1074b,1926s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-<c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Math.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Bold.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb>
-Output written on main.pdf (3 pages, 2298917 bytes).
+<c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Math.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Bold.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Italic.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb>
+Output written on main.pdf (5 pages, 2441530 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
- 364 compressed objects within 4 object streams
- 58 named destinations out of 1000 (max. 500000)
- 68974 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 613 PDF objects out of 1000 (max. 8388607)
+ 440 compressed objects within 5 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 71078 words of extra memory for PDF output out of 74296 (max. 10000000)
 
