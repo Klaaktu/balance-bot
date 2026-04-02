@@ -11,6 +11,7 @@
    sodipodi:docname="drawing.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -24,15 +25,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="5.6568543"
-     inkscape:cx="308.7405"
-     inkscape:cy="495.23991"
+     inkscape:zoom="8"
+     inkscape:cx="248.9375"
+     inkscape:cy="804.0625"
      inkscape:window-width="2560"
      inkscape:window-height="1494"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="g6">
     <inkscape:grid
        id="grid1"
        units="mm"
@@ -50,6 +51,49 @@
   </sodipodi:namedview>
   <defs
      id="defs1">
+    <linearGradient
+       id="linearGradient43"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#6699ff;stop-opacity:1;"
+         offset="0.60000002"
+         id="stop43" />
+      <stop
+         style="stop-color:#ba00ff;stop-opacity:1;"
+         offset="1"
+         id="stop44" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient39"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ff6600;stop-opacity:1;"
+         offset="0.60000002"
+         id="stop39" />
+      <stop
+         style="stop-color:#ba00ff;stop-opacity:1;"
+         offset="0.99586779"
+         id="stop40" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="Diamond"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Diamond"
+       markerWidth="0.3"
+       markerHeight="0.3"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.45)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path16" />
+    </marker>
     <marker
        style="overflow:visible"
        id="ArrowWide"
@@ -108,6 +152,81 @@
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path135" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="Diamond-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Diamond"
+       markerWidth="0.30000001"
+       markerHeight="0.30000001"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.45)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path16-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Diamond-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Diamond"
+       markerWidth="0.30000001"
+       markerHeight="0.30000001"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.45)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path16-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Diamond-1-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Diamond"
+       markerWidth="0.30000001"
+       markerHeight="0.30000001"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.45)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path16-2-1" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient39"
+       id="linearGradient40"
+       x1="42"
+       y1="206"
+       x2="42"
+       y2="216"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient43"
+       id="linearGradient44"
+       x1="42"
+       y1="216"
+       x2="42"
+       y2="206"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -191,10 +310,10 @@
              y="128.48656"
              id="tspan2">Read<tspan
    y="128.48656"
-   id="tspan3"> </tspan></tspan><tspan
+   id="tspan13"> </tspan></tspan><tspan
              x="66.237152"
              y="130.25045"
-             id="tspan6">States</tspan></text>
+             id="tspan15">States</tspan></text>
       </g>
       <g
          id="g3-4"
@@ -216,12 +335,12 @@
            transform="translate(-3.0706657,4.2205847)"><tspan
              x="67.033188"
              y="128.48656"
-             id="tspan11">Feedback<tspan
+             id="tspan16">Feedback<tspan
    y="128.48656"
-   id="tspan12"> </tspan></tspan><tspan
+   id="tspan17"> </tspan></tspan><tspan
              x="67.033188"
              y="130.25045"
-             id="tspan13">Control</tspan></text>
+             id="tspan18">Control</tspan></text>
       </g>
       <g
          id="g3-4-7"
@@ -243,12 +362,12 @@
            transform="translate(-2.5918793,4.2218764)"><tspan
              x="66.588852"
              y="128.48656"
-             id="tspan14">Robot<tspan
+             id="tspan19">Take<tspan
    y="128.48656"
-   id="tspan15"> </tspan></tspan><tspan
+   id="tspan20"> </tspan></tspan><tspan
              x="66.588852"
              y="130.25045"
-             id="tspan16">Action</tspan></text>
+             id="tspan21">Action</tspan></text>
       </g>
       <g
          id="g4"
@@ -267,10 +386,10 @@
            transform="translate(2.2902697,-0.88194311)"><tspan
              x="69.444595"
              y="124.59901"
-             id="tspan17">Check </tspan><tspan
+             id="tspan22">Check </tspan><tspan
              x="69.444595"
              y="126.3629"
-             id="tspan18">States</tspan></text>
+             id="tspan23">States</tspan></text>
       </g>
       <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
@@ -526,6 +645,559 @@
              style="stroke:none;stroke-width:0.2"
              x="68.519119"
              y="180.05528">l</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g6">
+      <g
+         id="g5">
+        <rect
+           style="fill:#cc0000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           id="rect3"
+           width="8"
+           height="1.999994"
+           x="44"
+           y="204" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.41111px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           x="48.022049"
+           y="205.4792"
+           id="text4"><tspan
+             sodipodi:role="line"
+             id="tspan3"
+             style="font-size:1.41111px;fill:#ffffff;stroke-width:0.3"
+             x="48.022049"
+             y="205.4792">Week 7</tspan></text>
+      </g>
+      <g
+         id="g5-8"
+         transform="translate(8.0013666)">
+        <rect
+           style="fill:#cc0000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           id="rect3-2"
+           width="8"
+           height="1.999994"
+           x="44"
+           y="204" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.41111px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           x="48.031349"
+           y="205.4792"
+           id="text4-4"><tspan
+             sodipodi:role="line"
+             id="tspan3-5"
+             style="font-size:1.41111px;fill:#ffffff;stroke-width:0.3"
+             x="48.031349"
+             y="205.4792">Week 8</tspan></text>
+      </g>
+      <g
+         id="g5-1"
+         transform="translate(16.001367)">
+        <rect
+           style="fill:#cc0000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           id="rect3-5"
+           width="8"
+           height="1.999994"
+           x="44"
+           y="204" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.41111px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           x="48.021015"
+           y="205.4792"
+           id="text4-2"><tspan
+             sodipodi:role="line"
+             id="tspan3-7"
+             style="font-size:1.41111px;fill:#ffffff;stroke-width:0.3"
+             x="48.021015"
+             y="205.4792">Week 9</tspan></text>
+      </g>
+      <g
+         id="g5-3"
+         transform="translate(24.000002)">
+        <rect
+           style="fill:#cc0000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           id="rect3-22"
+           width="8"
+           height="1.999994"
+           x="44"
+           y="204" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.41111px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           x="48.015846"
+           y="205.4792"
+           id="text4-1"><tspan
+             sodipodi:role="line"
+             id="tspan3-6"
+             style="font-size:1.41111px;fill:#ffffff;stroke-width:0.3"
+             x="48.015846"
+             y="205.4792">Week 10</tspan></text>
+      </g>
+      <g
+         id="g5-18"
+         transform="translate(32.000002)">
+        <rect
+           style="fill:#cc0000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           id="rect3-9"
+           width="8"
+           height="1.999994"
+           x="44"
+           y="204" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.41111px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           x="48.076824"
+           y="205.4792"
+           id="text4-27"><tspan
+             sodipodi:role="line"
+             id="tspan3-9"
+             style="font-size:1.41111px;fill:#ffffff;stroke-width:0.3"
+             x="48.076824"
+             y="205.4792">Week 11</tspan></text>
+      </g>
+      <g
+         id="g5-2"
+         transform="translate(40.000002)">
+        <rect
+           style="fill:#cc0000;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           id="rect3-3"
+           width="8"
+           height="1.999994"
+           x="44"
+           y="204" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.41111px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           x="48.019981"
+           y="205.4792"
+           id="text4-3"><tspan
+             sodipodi:role="line"
+             id="tspan3-4"
+             style="font-size:1.41111px;fill:#ffffff;stroke-width:0.3"
+             x="48.019981"
+             y="205.4792">Week 12</tspan></text>
+      </g>
+      <g
+         id="g8">
+        <rect
+           style="fill:url(#linearGradient40);fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;fill-rule:nonzero"
+           id="rect6"
+           width="2"
+           height="10.000002"
+           x="42"
+           y="206" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.76389px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:tb-rl;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           x="42.850868"
+           y="210.98622"
+           id="text6"><tspan
+             sodipodi:role="line"
+             id="tspan6"
+             style="writing-mode:tb-rl;direction:ltr;fill:#ffffff;stroke-width:0.3"
+             x="42.850868"
+             y="210.98622">Lin</tspan></text>
+      </g>
+      <g
+         id="g8-7"
+         transform="translate(9.893958e-7,9.9999936)">
+        <rect
+           style="fill:url(#linearGradient44);fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           id="rect6-4"
+           width="2"
+           height="10.000002"
+           x="42"
+           y="206" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.76389px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:tb-rl;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none"
+           x="43.069633"
+           y="211.00775"
+           id="text6-2"><tspan
+             sodipodi:role="line"
+             id="tspan6-7"
+             style="writing-mode:tb-rl;direction:ltr;fill:#ffffff;stroke-width:0.3"
+             x="43.069633"
+             y="211.00775">Yang</tspan></text>
+      </g>
+      <g
+         id="g9">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:0.59558821"
+           d="m 52.000001,203.99999 v 22"
+           id="path8" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:0.59558821"
+           d="m 60.000001,203.99999 v 22"
+           id="path8-9" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:0.59558821"
+           d="m 68.000002,203.99999 v 22"
+           id="path8-2" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:0.59558821"
+           d="m 76.000002,203.99999 v 22"
+           id="path8-4" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:0.59558821"
+           d="m 84.000002,203.99999 v 22"
+           id="path8-90" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           d="m 91.950002,203.99999 v 22"
+           id="path8-8" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-opacity:1"
+           d="M 44.000001,225.94935 H 92.000002"
+           id="path8-6"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.16;stroke-dasharray:0.16,0.16;stroke-opacity:0.50310558;stroke-dashoffset:0"
+           d="M 43.999999,216 92,215.99999"
+           id="path9" />
+      </g>
+      <g
+         id="g14"
+         transform="translate(1.2885241e-6,2.0000094)">
+        <rect
+           style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           id="rect9"
+           width="9"
+           height="1.9999999"
+           x="45"
+           y="206.99998"
+           ry="0.5"
+           rx="0.5" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           x="49.489147"
+           y="208.2532"
+           id="text11"><tspan
+             sodipodi:role="line"
+             id="tspan11"
+             style="font-size:1.05833px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.2"
+             x="49.489147"
+             y="208.2532">Improve Design</tspan></text>
+      </g>
+      <g
+         id="g14-3"
+         transform="translate(1.2425031e-6,14.000009)">
+        <rect
+           style="fill:#6699ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           id="rect9-9"
+           width="9"
+           height="1.9999999"
+           x="45"
+           y="206.99998"
+           ry="0.5"
+           rx="0.5" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           x="49.489147"
+           y="208.2532"
+           id="text11-8"><tspan
+             sodipodi:role="line"
+             id="tspan11-8"
+             style="font-size:1.05833px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.2"
+             x="49.489147"
+             y="208.2532">Improve Design</tspan></text>
+      </g>
+      <g
+         id="g14-0"
+         transform="translate(16.000001,2.0000094)">
+        <rect
+           style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           id="rect9-7"
+           width="19"
+           height="1.9999999"
+           x="44.999996"
+           y="206.99998"
+           ry="0.5"
+           rx="0.5" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           x="54.493279"
+           y="208.2532"
+           id="text11-6"><tspan
+             sodipodi:role="line"
+             id="tspan11-3"
+             style="font-size:1.05833px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.2"
+             x="54.493279"
+             y="208.2532">Hardware Design</tspan></text>
+      </g>
+      <g
+         id="g14-0-8"
+         transform="translate(16.000005,14.000009)">
+        <rect
+           style="fill:#6699ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           id="rect9-7-3"
+           width="19"
+           height="1.9999999"
+           x="44.999996"
+           y="206.99998"
+           ry="0.5"
+           rx="0.5" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           x="54.493279"
+           y="208.2532"
+           id="text11-6-8"><tspan
+             sodipodi:role="line"
+             id="tspan11-3-3"
+             style="font-size:1.05833px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.2"
+             x="54.493279"
+             y="208.2532">Hardware Design</tspan></text>
+      </g>
+      <g
+         id="g14-0-2"
+         transform="translate(16.000006,5.0000092)">
+        <rect
+           style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           id="rect9-7-0"
+           width="19"
+           height="1.9999999"
+           x="47.999996"
+           y="206.99998"
+           ry="0.5"
+           rx="0.5" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           x="57.46925"
+           y="208.2532"
+           id="text11-6-9"><tspan
+             sodipodi:role="line"
+             id="tspan11-3-7"
+             style="font-size:1.05833px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.2"
+             x="57.46925"
+             y="208.2532">Software Design</tspan></text>
+      </g>
+      <g
+         id="g14-0-2-3"
+         transform="translate(16.000006,11.000009)">
+        <rect
+           style="fill:#6699ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           id="rect9-7-0-4"
+           width="19"
+           height="1.9999999"
+           x="47.999996"
+           y="206.99998"
+           ry="0.5"
+           rx="0.5" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           x="57.46925"
+           y="208.2532"
+           id="text11-6-9-9"><tspan
+             sodipodi:role="line"
+             id="tspan11-3-7-6"
+             style="font-size:1.05833px;writing-mode:lr-tb;fill:#ffffff;stroke-width:0.2"
+             x="57.46925"
+             y="208.2532">Software Design</tspan></text>
+      </g>
+      <g
+         id="g15"
+         transform="translate(0.30341058,-1.2259023)">
+        <rect
+           style="fill:#ba00ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           id="rect9-8"
+           width="10"
+           height="1.9999999"
+           x="49.69659"
+           y="214.72591"
+           ry="0.5"
+           rx="0.49999997" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           x="54.696075"
+           y="216.08531"
+           id="text12"><tspan
+             sodipodi:role="line"
+             id="tspan12"
+             style="fill:#ffffff;stroke-width:0.2"
+             x="54.696075"
+             y="216.08531">Combine Hardwares</tspan></text>
+      </g>
+      <g
+         id="g15-2"
+         transform="translate(0.30341058,1.7740936)">
+        <rect
+           style="fill:#ba00ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           id="rect9-8-6"
+           width="10"
+           height="1.9999999"
+           x="49.69659"
+           y="214.72591"
+           ry="0.5"
+           rx="0.49999997" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           x="54.696075"
+           y="216.08531"
+           id="text12-60"><tspan
+             sodipodi:role="line"
+             id="tspan12-3"
+             style="fill:#ffffff;stroke-width:0.2"
+             x="54.696075"
+             y="216.08531">Combine Softwares</tspan></text>
+      </g>
+      <g
+         id="g15-0"
+         transform="translate(15.303411,0.27408755)">
+        <rect
+           style="fill:#ba00ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           id="rect9-8-1"
+           width="8"
+           height="1.9999999"
+           x="49.69659"
+           y="214.72591"
+           ry="0.5"
+           rx="0.49999997" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           x="53.696075"
+           y="216.08531"
+           id="text12-6"><tspan
+             sodipodi:role="line"
+             id="tspan12-5"
+             style="fill:#ffffff;stroke-width:0.2"
+             x="53.696075"
+             y="216.08531">Combine Plans</tspan></text>
+      </g>
+      <g
+         id="g15-0-2"
+         transform="translate(26.303411,0.27408755)">
+        <rect
+           style="fill:#ba00ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           id="rect9-8-1-0"
+           width="8"
+           height="1.9999999"
+           x="49.69659"
+           y="214.72591"
+           ry="0.5"
+           rx="0.49999997" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           x="53.696075"
+           y="216.08531"
+           id="text12-6-0"><tspan
+             sodipodi:role="line"
+             id="tspan12-5-1"
+             style="fill:#ffffff;stroke-width:0.2"
+             x="53.696075"
+             y="216.08531">Final Combine</tspan></text>
+      </g>
+      <g
+         id="g15-0-2-3"
+         transform="translate(33.80341,0.27408363)">
+        <rect
+           style="fill:#ba00ff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           id="rect9-8-1-0-3"
+           width="7.0000005"
+           height="1.9999999"
+           x="50.69659"
+           y="214.72591"
+           ry="0.5"
+           rx="0.49999994" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-dasharray:0.2, 0.4;stroke-dashoffset:0;stroke-opacity:0.503106"
+           x="54.203049"
+           y="215.98015"
+           id="text12-6-0-5"><tspan
+             sodipodi:role="line"
+             id="tspan12-5-1-9"
+             style="fill:#ffffff;stroke-width:0.2"
+             x="54.203049"
+             y="215.98015">Final Improve</tspan></text>
+      </g>
+      <g
+         id="g16"
+         transform="translate(0.13229167,7.4634261)">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#ff6600;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Diamond);marker-end:url(#Diamond)"
+           d="M 45.199084,200.04048 H 59.435873"
+           id="path13" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="52.317734"
+           y="199.60655"
+           id="text14"><tspan
+             sodipodi:role="line"
+             id="tspan14"
+             style="fill:#000000;stroke:none;stroke-width:0.4"
+             x="52.317734"
+             y="199.60655">Locking Skill</tspan></text>
+      </g>
+      <g
+         id="g16-4"
+         transform="translate(0.18229186,24.508595)">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#6699ff;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Diamond-1);marker-end:url(#Diamond-1)"
+           d="M 45.199084,200.04048 H 59.435873"
+           id="path13-7" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="52.319546"
+           y="201.10936"
+           id="text14-8"><tspan
+             sodipodi:role="line"
+             id="tspan14-35"
+             style="fill:#000000;stroke:none;stroke-width:0.4"
+             x="52.319546"
+             y="201.10936">Motion Skill</tspan></text>
+      </g>
+      <g
+         id="g16-4-6"
+         transform="translate(16.176291,24.508595)">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#6699ff;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Diamond-1-0);marker-end:url(#Diamond-1-0)"
+           d="M 45.364849,200.04045 H 66.441853"
+           id="path13-7-1" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="55.905159"
+           y="201.10936"
+           id="text14-8-8"><tspan
+             sodipodi:role="line"
+             id="tspan14-35-9"
+             style="fill:#000000;stroke:none;stroke-width:0.4"
+             x="55.905159"
+             y="201.10936">Resurrection Skill</tspan></text>
+      </g>
+      <g
+         id="g16-2"
+         transform="translate(17.149341,7.4750516)">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#ff6600;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#Diamond-6);marker-end:url(#Diamond-6)"
+           d="M 44.308644,200.04046 H 65.468799"
+           id="path13-9" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.05833px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="51.793827"
+           y="199.60655"
+           id="text14-1"><tspan
+             sodipodi:role="line"
+             id="tspan14-3"
+             style="fill:#000000;stroke:none;stroke-width:0.4"
+             x="51.793827"
+             y="199.60655">Adaption Skill</tspan></text>
       </g>
     </g>
   </g>

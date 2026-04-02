@@ -726,6 +726,17 @@ INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_d4q673.e
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathcal.enc
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraMono-Regular-tosf-t1.vf
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraMono-Regular-tosf-t1--base.tfm
+INPUT ./figures/balancing_on_table.png
+INPUT ./figures/balancing_on_table.png
+INPUT ./figures/balancing_on_table.png
+INPUT ./figures/balancing_on_table.png
+INPUT ./figures/balancing_on_table.png
+INPUT ./figures/timeline.pdf
+INPUT ./figures/timeline.pdf
+INPUT ./figures/timeline.pdf
+INPUT ./figures/timeline.pdf
+INPUT ./figures/timeline.pdf
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text-italic.tfm
 INPUT main.aux
 INPUT main.run.xml

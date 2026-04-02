@@ -51,10 +51,9 @@ The primary objective of this project is to build an autonomous self-balancing r
   \item Advanced requirements: \begin{itemize}
   \item The robot can be able to fully control its state, including facing direction and moving speed.
   \item The robot can follow a designated path without obvious drift.
-  \item The robot can smartly respond to different situations: in peaceful environments, being slightly perturbed, being strongly perturbed, set to move to and keep around a position. 
+  \item The robot can smartly respond to different situations: in peaceful environments, being slightly perturbed, being strongly perturbed, commanded to move to and keep around a position. 
   \end{itemize}
 \end{itemize}
-
 
 \section{Technical Details and Analysis}
 
@@ -239,7 +238,7 @@ In conclusion, a motor being able to produce huge $F$ is wanted for all the case
 \subsubsection{Chassis}
 We use CAD (Autodesk Fusion) to design the chassis model, and 3D-print the model. The chassis is designed with many components in the experimental stage to make some components easier to update. These components are assembled using M3 bolts and nuts. For the final design, all the components are combined into a whole one to make the chassis stable.
 
-In Fusion, the chassis is designed with the help of the models of other electronic components. Official datasheets of the electronic components are also used. In this way, it's precise and accurate to design the size and position of chassis components and through holes. One of our CAD model designs is shown in \figref{fig:chassis_design}. It has high mass center, which can perform good balancing skill but lack controllability.
+In Fusion, the chassis is designed with the help of the models of other electronic components. Official datasheets of the electronic components are also used. In this way, it's precise and accurate to design the size and position of chassis components and through holes. One of our CAD model designs is shown in \figref{fig:chassis_design}. It has high mass center, which can perform good balancing skill but lack flexibility.
 \begin{figure}[htbp]
   \centering
   \begin{subfigure}{0.8\columnwidth}
@@ -293,11 +292,11 @@ For the PID of balancing pitch angle, the 3 coefficients need to be tune along w
 \subsubsection{Pulse width modulation}
 In order to control the robot smoothly and continuously, we need analog signals to do the task. However, the UNO has only digital output, which means the output voltage can be either HIGH level or LOW level without any values in between. PWM can solve this problem. Instead of encoding signals to voltage level, it produces a train of pulses as the output, and encodes signals to the width of each pulse. Meanwhile, our motor driver is able to receive the PWM signals.
 
-However, the range of PWM values is limited. But this disadvantage can be ignored in our cases, since the resolution of PWM is much better than the resolution of geared motors.
+However, the range of PWM values is limited. This disadvantage can be ignored in our cases, since the resolution of PWM is much better than the resolution of geared motors.
 
 
 \subsection{Control Logic}
-The program for controlling runs in Arduino UNO. So far, we have realized these skills: connecting and initializing each components, reading angles and accelerations from IMU, using PWM to driver motors, balancing the robot by its pitch angle with PID, controlling the yaw angle (improving), changing the PID coefficients automatically for different situations (improving), controlling the linear motion (improving). The structure of control logic is based on \ref{subsec:basic_ideas} and \figref{fig:basic_balancing_flowchart}, whose details are shown below:
+The program for controlling runs in Arduino UNO. The structure of control logic is based on \ref{subsec:basic_ideas} and \figref{fig:basic_balancing_flowchart}, whose details are shown below:
 
 \subsubsection{Start}
 In this terminator, every components is being initialized. If anyone of them is not initialized successfully, the following controlling code would not run.
@@ -330,11 +329,11 @@ bool getRobotState() {
 The states gotten from the previous process is analyzed, and the next step is determined. For example (as shown in \coderef{lst:code_check_states}), the coefficients of PID controller will be changed to surviving mode if the pitch angle is too large, or the motors will be disabled if the robot is destined to fall.
 
 \begin{lstlisting}[caption={Example code of "Check States" process}, label={lst:code_check_states}, language=C++]
+if (abs(pitchAngle) > maxPitchAngle) { motorStop(); }
+// ...
 if (abs(pitchAngle) > survivingPitch) {
   pitchPID.SetTunings(sKp, sKi, sKd);
 } else { pitchPID.SetTunings(kp, ki, kd); }
-// ...
-if (abs(pitchAngle) > maxPitchAngle) { motorStop(); }
 \end{lstlisting}
 
 \subsubsection{Feedback Control}
@@ -343,7 +342,7 @@ Our feedback control is currently based on only PID controller. We use a library
 \subsubsection{Take Action}
 This process convert the digital signals from feedback control into a real action of the robots. For example, accelerating immediately, or rotating clockwise slowly. The action is also influenced by "Check States". As shown in \coderef{lst:code_take_action}, balancing the pitch is a priority over adjusting the yaw.
 \begin{lstlisting}[caption={Example code of "Take Action" process}, label={lst:code_take_action}, language=C++]
-if (abs(motorValue) > maxMotorValue * 3) {
+if (abs(motorValue) > maxMotorValue * 0.3) {
   motorMove(motorValue, ENA_PIN, IN1_PIN, IN2_PIN);
   motorMove(motorValue, ENB_PIN, IN3_PIN, IN4_PIN);
 } else {
@@ -352,12 +351,53 @@ if (abs(motorValue) > maxMotorValue * 3) {
 }
 \end{lstlisting}
 
+\section{Current Achievements}
+So far, we have realized these skills: connecting and initializing each components, reading angles and accelerations from IMU, using PWM to driver motors, balancing the robot by its pitch angle with PID, controlling the yaw angle (improving), changing the PID coefficients automatically (improving), controlling the linear motion (improving). The robot of current version is shown in \figref{fig:robot_balancing_on_table}. 
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.5\columnwidth]{figures/balancing_on_table.png}
+    \caption{The robot with complete basic balancing skills and preliminary advanced skills. It can stably balance itself on a small table.}
+    \label{fig:robot_balancing_on_table}
+\end{figure}
+
+The rough evaluations of the robot are listed in \tabref{tab:robot_evaluation_metric}. Most top-level requirements mentioned in \ref{subsec:requirements_review} are achieved. Some evaluations are even better than expected, such as the max displacement in 1s  without perturbation. However, the max allowed perturbation pitch ($<15^\circ$) is not achieved. It's because the high mass center can weaken its perturbation resistance. To improve this skills, we will try to increase the strength of motor driver, increase the wheel size, or decease the mass and the height of mass center.
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{c c}
+    \toprule
+    \textbf{Evaluation Metric} & \textbf{Rough Value} \\
+    \midrule
+    Balancing Time (no perturbation) & $\sim\infty$ \\
+    Max Pitch (no perturbation) & $\approx3.5^\circ$ \\
+    Max Displacement in $1s$ (no perturbation) & $\approx0.15\;m$ \\
+    Min Pitch to Drive Motors & $<0.4^\circ$ \\
+    \midrule
+    Perturbation Reaction Time & $\ll0.2\;s$ \\
+    Max Allowed Perturbation Pitch & $\approx13^\circ$ \\
+    Max Time to Restore from Pitch Perturbation & $\approx1.5\;s$ \\
+    Max Displacement by Pitch Perturbation & $\approx1\;m$ \\
+    Max Time to Restore from Yaw Perturbation of $180^\circ$ & $\approx3\;s$ \\
+    \bottomrule
+    \end{tabular}
+    \vspace{\baselineskip}
+    \caption{Some key evaluations of the robot of current version.}
+    \label{tab:robot_evaluation_metric}
+\end{table}
+
+
+
+
 \section{Project Management}
 
 \subsection{Responsibilities}
-Initially, the project was divided into two parts: hardware and software. Lin was responsible for the hardware part, including electronic components and mechanical design. Yang was responsible for the software part, including signal processing and control logic. Our progress was unexpectedly fast. The first version of balancing robot was developed much earlier than planned.
-
-After discussions, we both agreed that designing the hardware and software together is much more efficient than designing them individually and then combining them. By team working and peer learning, we quickly mastered both the hardware and software part. Therefore, we use a semi-parallel structure for our project. Both of us is responsible to design a robot with different skills individually while sharing the same mechanical and logical structure. There are also regular discussions about integrating these skills into one robot. Our current responsibilities about skill designing are listed below: 
+Initially, the project was divided into two parts: hardware and software. The origin responsibilities are listed below:
+\begin{itemize}
+  \item Lin: hardware part, including electronic components and mechanical design
+  \item Yang: software part, including signal processing and control logic
+\end{itemize}
+However, Our progress was unexpectedly fast. The first version of balancing robot was developed much earlier than planned. After discussions, we both agreed that designing the hardware and software together is much more efficient than designing them individually and then combining them. By team working and peer learning, we quickly mastered both the hardware and software part. Therefore, we use a semi-parallel structure for our project. Both of us is responsible to design a robot with different skills individually while sharing the same mechanical and logical structure. There are also regular discussions about integrating these skills into one robot. Our current responsibilities about skill designing are listed below: 
 \begin{itemize}
   \item Lin:\begin{itemize}
     \item Locking skill: the robot can lock itself to a certain direction, even if it's rotated by us deliberately.
@@ -370,9 +410,20 @@ After discussions, we both agreed that designing the hardware and software toget
 \end{itemize}
 Combining these skills, we can achieve the advanced requirements mentioned in \ref{subsec:requirements_review}
 
-
-\subsection{Timeline}
-Timeline
+\subsection{Estimated Timeline}
+The remaining development will be divided into 3 phases:
+\begin{itemize}
+  \item Phase 1: Improve the locking skill and motion skill. Combine them into one robot.
+  \item Phase 2: Develop the adaption skill and resurrection skill. Discuss the development plans in the beginning, and combine the development results at the end.
+  \item Phase 3: Conduct comprehensive tests. Do the final improvements based on the performance.
+\end{itemize}
+The detailed timeline is shown in \figref{fig:timeline_gantt_chart}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\columnwidth]{figures/timeline.pdf}
+    \caption{The Gantt chart of our estimated timeline.}
+    \label{fig:timeline_gantt_chart}
+\end{figure}
 
 \subsection{Budget}
 Budget
