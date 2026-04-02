@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1775103993.65511 -1
-  "main.bcf" 1775103992 109082 9e72dc598045f9c6b2b15f77f1cfc8c2 "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1775105123.31097 -1
+  "main.bcf" 1775105122 109082 9e72dc598045f9c6b2b15f77f1cfc8c2 "pdflatex"
   "tau.bib" 1775028164 1059 602ffbc998c5da62e70cbcfb40ebfeed ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1775103983.91537 "c:/setGF/Study/ANU/PHYS6701 - Rapid Prototyping/Balancing Robot/Report/main.tex" "main.pdf" "main" 1775103993.65675 0
+["pdflatex"] 1775105115.56846 "c:/setGF/Study/ANU/PHYS6701 - Rapid Prototyping/Balancing Robot/Report/main.tex" "main.pdf" "main" 1775105123.31337 0
   "c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_d4q673.enc" 1743913975 2978 6d777d1174162fa94ff58f36782f4570 ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc" 1743913975 3071 cfa92ee28d698dd9275559d9d1c3a233 ""
   "c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathbb.enc" 1743920832 2904 e0faa515d685129700e18ca6e0e2b48f ""
@@ -319,18 +319,18 @@
   "c:/Program Files/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743923273 5546875 71bd1211cca9460e7983e413c441eb9f ""
   "c:/Program Files/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743923444 3346183 513f6a9d1760d865aaa244755c88be0e ""
   "c:/Program Files/texlive/2025/texmf.cnf" 1743923231 713 e69b156964470283e0530f5060668171 ""
-  "c:/setGF/Study/ANU/PHYS6701 - Rapid Prototyping/Balancing Robot/Report/main.tex" 1775103974 29049 165c9bf391b599e9f9bd760bb5f7e2af ""
+  "c:/setGF/Study/ANU/PHYS6701 - Rapid Prototyping/Balancing Robot/Report/main.tex" 1775105114 29049 165c9bf391b599e9f9bd760bb5f7e2af ""
   "figures/assembly_manual.pdf" 1774664071 808105 9c3423a3647fa3835619c2fd5891e325 ""
-  "figures/balancing_on_table.png" 1775089544 19140975 2d7741fc8b33f01ecb9d740fc302b4f6 ""
+  "figures/balancing_on_table.png" 1775105085 1441325 51ea9e3496fe20d5929bed6d6c3c95d6 ""
   "figures/basic_balancing.pdf" 1775041437 23561 f870d38dc1b7643c34be0376b970eae9 ""
   "figures/front_top_side.pdf" 1774662705 24508 b07d0130f8d81007ed21b2b746140788 ""
   "figures/physical_model.pdf" 1774593096 21920 77ce6b420f712fff63f2a3c52059a945 ""
   "figures/timeline.pdf" 1775103262 32848 56148ab1fb82ba231dc4b14ab79663b8 ""
   "figures/wire_diagram.pdf" 1774665257 808831 793ce6ed2ac7cf83af937d9d02e062fd ""
-  "main.aux" 1775103992 20394 64c7f590a33535c11af6e57766e80147 "pdflatex"
+  "main.aux" 1775105122 20394 64c7f590a33535c11af6e57766e80147 "pdflatex"
   "main.bbl" 1775028176 4540 cf1ea3dbaffb6a2bb0c472d069d6f158 "biber main"
-  "main.run.xml" 1775103992 2367 a824c96d47a069a0d2c99a0d837f536d "pdflatex"
-  "main.tex" 1775103974 29049 165c9bf391b599e9f9bd760bb5f7e2af ""
+  "main.run.xml" 1775105122 2367 a824c96d47a069a0d2c99a0d837f536d "pdflatex"
+  "main.tex" 1775105114 29049 165c9bf391b599e9f9bd760bb5f7e2af ""
   "tau-class/tau.cls" 1774673511 16637 e084a6b3a3945ace82bbd0889626bbab ""
   "tau-class/taubabel.sty" 1774667155 3672 1ef12c3a95220b69aa6ab01dd68fcd33 ""
   "tau-class/tauenvs.sty" 1774667155 2831 e86de0317572edc6f1be19b58a727dd1 ""
