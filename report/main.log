@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.6)  2 APR 2026 15:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.6)  3 APR 2026 00:37
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -990,7 +990,24 @@ Package: lastpage2e 2025/01/27 v2.1e Decide which 2e lastpage version to use (HM
 Package: lastpagemodern 2025-01-27 v2.1e Refers to last page's name (HMM; JPG)
 \c@lastpagecount=\count361
 ) 
-)) (c:/Program Files/texlive/2025/texmf-dist/tex/latex/lettrine/lettrine.sty
+))
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 212.
+
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 213.
+
+
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 217.
+
+
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 227.
+
+(c:/Program Files/texlive/2025/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2025-01-30 v2.80 (Daniel Flipo)
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
 Package: xfp 2024-08-16 L3 Floating point unit
@@ -1052,8 +1069,6 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count367
 \c@affil=\count368
 )
-\c@ttlp@side=\count369
-\ttlp@side=\count370
 \tocsep=\skip165
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2025/01/04 v2.17 TOC entries
@@ -1072,17 +1087,17 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen349
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count371
-\c@continuedfloat=\count372
+\c@caption@flags=\count369
+\c@continuedfloat=\count370
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 ) (c:/Program Files/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count373
+\c@subfigure=\count371
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count374
+\c@subtable=\count372
 ) (c:/Program Files/texlive/2025/texmf-dist/tex/latex/minted/minted.sty
 Package: minted 2025/03/06 v3.6.0 Yet another Pygments shim for LaTeX
  (c:/Program Files/texlive/2025/texmf-dist/tex/generic/catchfile/catchfile.sty
@@ -1091,58 +1106,58 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 Package: fvextra 2025/03/04 v1.12.0 fvextra - extensions and patches for fancyvrb
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count375
+\FV@CodeLineNo=\count373
 \FV@InFile=\read4
 \FV@TabBox=\box97
-\c@FancyVerbLine=\count376
-\FV@StepNumber=\count377
+\c@FancyVerbLine=\count374
+\FV@StepNumber=\count375
 \FV@OutFile=\write4
 ) (c:/Program Files/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 ) (c:/Program Files/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2025/01/29 line numbers on paragraphs v5.4
-\linenopenalty=\count378
+\linenopenalty=\count376
 \output=\toks52
-\linenoprevgraf=\count379
+\linenoprevgraf=\count377
 \linenumbersep=\dimen350
 \linenumberwidth=\dimen351
-\c@linenumber=\count380
-\c@pagewiselinenumber=\count381
-\c@LN@truepage=\count382
-\c@internallinenumber=\count383
-\c@internallinenumbers=\count384
+\c@linenumber=\count378
+\c@pagewiselinenumber=\count379
+\c@LN@truepage=\count380
+\c@internallinenumber=\count381
+\c@internallinenumbers=\count382
 \quotelinenumbersep=\dimen352
 \bframerule=\dimen353
 \bframesep=\dimen354
 \bframebox=\box98
-\@LN@amsmath@ams@eqpen=\count385
+\@LN@amsmath@ams@eqpen=\count383
 LaTeX Info: Redefining \\ on input line 3187.
 )
-\c@FancyVerbWriteLine=\count386
-\c@FancyVerbBufferLine=\count387
-\c@FV@TrueTabGroupLevel=\count388
-\c@FV@TrueTabCounter=\count389
+\c@FancyVerbWriteLine=\count384
+\c@FancyVerbBufferLine=\count385
+\c@FV@TrueTabGroupLevel=\count386
+\c@FV@TrueTabCounter=\count387
 \FV@TabBox@Group=\box99
 \FV@bgcolorstructbox=\box100
 \FV@TmpLength=\skip166
-\c@FV@HighlightLinesStart=\count390
-\c@FV@HighlightLinesStop=\count391
-\FV@LoopCount=\count392
+\c@FV@HighlightLinesStart=\count388
+\c@FV@HighlightLinesStop=\count389
+\FV@LoopCount=\count390
 \FV@NCharsBox=\box101
 \FV@BreakIndent=\dimen355
-\FV@BreakIndentNChars=\count393
+\FV@BreakIndentNChars=\count391
 \FV@BreakSymbolSepLeft=\dimen356
-\FV@BreakSymbolSepLeftNChars=\count394
+\FV@BreakSymbolSepLeftNChars=\count392
 \FV@BreakSymbolSepRight=\dimen357
-\FV@BreakSymbolSepRightNChars=\count395
+\FV@BreakSymbolSepRightNChars=\count393
 \FV@BreakSymbolIndentLeft=\dimen358
-\FV@BreakSymbolIndentLeftNChars=\count396
+\FV@BreakSymbolIndentLeftNChars=\count394
 \FV@BreakSymbolIndentRight=\dimen359
-\FV@BreakSymbolIndentRightNChars=\count397
-\c@FancyVerbLineBreakLast=\count398
+\FV@BreakSymbolIndentRightNChars=\count395
+\c@FancyVerbLineBreakLast=\count396
 \FV@LineBox=\box102
 \FV@LineIndentBox=\box103
-\c@FV@BreakBufferDepth=\count399
+\c@FV@BreakBufferDepth=\count397
 \FV@LineWidth=\dimen360
 ) (c:/Program Files/texlive/2025/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
 Package: latex2pydata 2025/03/26 v0.6.0 latex2pydata - write data to file in Python literal format
@@ -1154,17 +1169,17 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 )
-\c@minted@FancyVerbLineTemp=\count400
+\c@minted@FancyVerbLineTemp=\count398
 \@float@every@listing=\toks55
-\c@listing=\count401
+\c@listing=\count399
 ) (c:/Program Files/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count402
-\csq@gtype=\count403
-\csq@glevel=\count404
-\csq@qlevel=\count405
-\csq@maxlvl=\count406
-\csq@tshold=\count407
+\csq@reset=\count400
+\csq@gtype=\count401
+\csq@glevel=\count402
+\csq@qlevel=\count403
+\csq@maxlvl=\count404
+\csq@tshold=\count405
 \csq@ltx@everypar=\toks56
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -1177,53 +1192,53 @@ File: csquotes.cfg
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count408
+\lrq@indent=\count406
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count409
-\c@listtotal=\count410
-\c@listcount=\count411
-\c@liststart=\count412
-\c@liststop=\count413
-\c@citecount=\count414
-\c@citetotal=\count415
-\c@multicitecount=\count416
-\c@multicitetotal=\count417
-\c@instcount=\count418
-\c@maxnames=\count419
-\c@minnames=\count420
-\c@maxitems=\count421
-\c@minitems=\count422
-\c@citecounter=\count423
-\c@maxcitecounter=\count424
-\c@savedcitecounter=\count425
-\c@uniquelist=\count426
-\c@uniquename=\count427
-\c@refsection=\count428
-\c@refsegment=\count429
-\c@maxextratitle=\count430
-\c@maxextratitleyear=\count431
-\c@maxextraname=\count432
-\c@maxextradate=\count433
-\c@maxextraalpha=\count434
-\c@abbrvpenalty=\count435
-\c@highnamepenalty=\count436
-\c@lownamepenalty=\count437
-\c@maxparens=\count438
-\c@parenlevel=\count439
-\blx@tempcnta=\count440
-\blx@tempcntb=\count441
-\blx@tempcntc=\count442
-\c@blx@maxsection=\count443
-\blx@maxsegment@0=\count444
-\blx@notetype=\count445
-\blx@parenlevel@text=\count446
-\blx@parenlevel@foot=\count447
-\blx@sectionciteorder@0=\count448
-\blx@sectionciteorderinternal@0=\count449
-\blx@entrysetcounter=\count450
-\blx@biblioinstance=\count451
+\c@tabx@nest=\count407
+\c@listtotal=\count408
+\c@listcount=\count409
+\c@liststart=\count410
+\c@liststop=\count411
+\c@citecount=\count412
+\c@citetotal=\count413
+\c@multicitecount=\count414
+\c@multicitetotal=\count415
+\c@instcount=\count416
+\c@maxnames=\count417
+\c@minnames=\count418
+\c@maxitems=\count419
+\c@minitems=\count420
+\c@citecounter=\count421
+\c@maxcitecounter=\count422
+\c@savedcitecounter=\count423
+\c@uniquelist=\count424
+\c@uniquename=\count425
+\c@refsection=\count426
+\c@refsegment=\count427
+\c@maxextratitle=\count428
+\c@maxextratitleyear=\count429
+\c@maxextraname=\count430
+\c@maxextradate=\count431
+\c@maxextraalpha=\count432
+\c@abbrvpenalty=\count433
+\c@highnamepenalty=\count434
+\c@lownamepenalty=\count435
+\c@maxparens=\count436
+\c@parenlevel=\count437
+\blx@tempcnta=\count438
+\blx@tempcntb=\count439
+\blx@tempcntc=\count440
+\c@blx@maxsection=\count441
+\blx@maxsegment@0=\count442
+\blx@notetype=\count443
+\blx@parenlevel@text=\count444
+\blx@parenlevel@foot=\count445
+\blx@sectionciteorder@0=\count446
+\blx@sectionciteorderinternal@0=\count447
+\blx@entrysetcounter=\count448
+\blx@biblioinstance=\count449
 \labelnumberwidth=\skip167
 \labelalphawidth=\skip168
 \biblabelsep=\skip169
@@ -1235,9 +1250,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read5
 \blx@bcfout=\write5
 \blx@langwohyphens=\language90
-\c@mincomprange=\count452
-\c@maxcomprange=\count453
-\c@mincompwidth=\count454
+\c@mincomprange=\count450
+\c@maxcomprange=\count451
+\c@mincompwidth=\count452
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -1247,74 +1262,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count455
-\c@savedafterword=\count456
-\c@annotator=\count457
-\c@savedannotator=\count458
-\c@author=\count459
-\c@savedauthor=\count460
-\c@bookauthor=\count461
-\c@savedbookauthor=\count462
-\c@commentator=\count463
-\c@savedcommentator=\count464
-\c@editor=\count465
-\c@savededitor=\count466
-\c@editora=\count467
-\c@savededitora=\count468
-\c@editorb=\count469
-\c@savededitorb=\count470
-\c@editorc=\count471
-\c@savededitorc=\count472
-\c@foreword=\count473
-\c@savedforeword=\count474
-\c@holder=\count475
-\c@savedholder=\count476
-\c@introduction=\count477
-\c@savedintroduction=\count478
-\c@namea=\count479
-\c@savednamea=\count480
-\c@nameb=\count481
-\c@savednameb=\count482
-\c@namec=\count483
-\c@savednamec=\count484
-\c@translator=\count485
-\c@savedtranslator=\count486
-\c@shortauthor=\count487
-\c@savedshortauthor=\count488
-\c@shorteditor=\count489
-\c@savedshorteditor=\count490
-\c@labelname=\count491
-\c@savedlabelname=\count492
-\c@institution=\count493
-\c@savedinstitution=\count494
-\c@lista=\count495
-\c@savedlista=\count496
-\c@listb=\count497
-\c@savedlistb=\count498
-\c@listc=\count499
-\c@savedlistc=\count500
-\c@listd=\count501
-\c@savedlistd=\count502
-\c@liste=\count503
-\c@savedliste=\count504
-\c@listf=\count505
-\c@savedlistf=\count506
-\c@location=\count507
-\c@savedlocation=\count508
-\c@organization=\count509
-\c@savedorganization=\count510
-\c@origlocation=\count511
-\c@savedoriglocation=\count512
-\c@origpublisher=\count513
-\c@savedorigpublisher=\count514
-\c@publisher=\count515
-\c@savedpublisher=\count516
-\c@language=\count517
-\c@savedlanguage=\count518
-\c@origlanguage=\count519
-\c@savedoriglanguage=\count520
-\c@pageref=\count521
-\c@savedpageref=\count522
+\c@afterword=\count453
+\c@savedafterword=\count454
+\c@annotator=\count455
+\c@savedannotator=\count456
+\c@author=\count457
+\c@savedauthor=\count458
+\c@bookauthor=\count459
+\c@savedbookauthor=\count460
+\c@commentator=\count461
+\c@savedcommentator=\count462
+\c@editor=\count463
+\c@savededitor=\count464
+\c@editora=\count465
+\c@savededitora=\count466
+\c@editorb=\count467
+\c@savededitorb=\count468
+\c@editorc=\count469
+\c@savededitorc=\count470
+\c@foreword=\count471
+\c@savedforeword=\count472
+\c@holder=\count473
+\c@savedholder=\count474
+\c@introduction=\count475
+\c@savedintroduction=\count476
+\c@namea=\count477
+\c@savednamea=\count478
+\c@nameb=\count479
+\c@savednameb=\count480
+\c@namec=\count481
+\c@savednamec=\count482
+\c@translator=\count483
+\c@savedtranslator=\count484
+\c@shortauthor=\count485
+\c@savedshortauthor=\count486
+\c@shorteditor=\count487
+\c@savedshorteditor=\count488
+\c@labelname=\count489
+\c@savedlabelname=\count490
+\c@institution=\count491
+\c@savedinstitution=\count492
+\c@lista=\count493
+\c@savedlista=\count494
+\c@listb=\count495
+\c@savedlistb=\count496
+\c@listc=\count497
+\c@savedlistc=\count498
+\c@listd=\count499
+\c@savedlistd=\count500
+\c@liste=\count501
+\c@savedliste=\count502
+\c@listf=\count503
+\c@savedlistf=\count504
+\c@location=\count505
+\c@savedlocation=\count506
+\c@organization=\count507
+\c@savedorganization=\count508
+\c@origlocation=\count509
+\c@savedoriglocation=\count510
+\c@origpublisher=\count511
+\c@savedorigpublisher=\count512
+\c@publisher=\count513
+\c@savedpublisher=\count514
+\c@language=\count515
+\c@savedlanguage=\count516
+\c@origlanguage=\count517
+\c@savedoriglanguage=\count518
+\c@pageref=\count519
+\c@savedpageref=\count520
 \shorthandwidth=\skip175
 \shortjournalwidth=\skip176
 \shortserieswidth=\skip177
@@ -1338,19 +1353,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count523
-\c@textcitetotal=\count524
-\c@textcitemaxnames=\count525
-\c@biburlbigbreakpenalty=\count526
-\c@biburlbreakpenalty=\count527
-\c@biburlnumpenalty=\count528
-\c@biburlucpenalty=\count529
-\c@biburllcpenalty=\count530
+\c@textcitecount=\count521
+\c@textcitetotal=\count522
+\c@textcitemaxnames=\count523
+\c@biburlbigbreakpenalty=\count524
+\c@biburlbreakpenalty=\count525
+\c@biburlnumpenalty=\count526
+\c@biburlucpenalty=\count527
+\c@biburllcpenalty=\count528
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count531
+\c@smartand=\count529
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -1368,8 +1383,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count532
-\c@bbx:relatedtotal=\count533
+\c@bbx:relatedcount=\count530
+\c@bbx:relatedtotal=\count531
 )))
 
 Package biblatex Warning: Macro 'volume+number' undefined.
@@ -1380,10 +1395,10 @@ Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count534
-\c@cbx@tempcntb=\count535
-\c@cbx@tempcntc=\count536
-\c@cbx@tempcntd=\count537
+\c@cbx@tempcnta=\count532
+\c@cbx@tempcntb=\count533
+\c@cbx@tempcntc=\count534
+\c@cbx@tempcntd=\count535
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1413,7 +1428,7 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
 \MT@toks=\toks57
 \MT@tempbox=\box104
-\MT@count=\count538
+\MT@count=\count536
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
 LaTeX Info: Redefining \leftprotrusion on input line 1088.
 \MT@prot@toks=\toks58
@@ -1422,7 +1437,7 @@ LaTeX Info: Redefining \textls on input line 1449.
 \MT@outer@kern=\dimen361
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count539
+\MT@listname@count=\count537
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 944.
@@ -1446,48 +1461,48 @@ Package csquotes Info: ... none found.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for LS1/stix2/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for LS1+stix2 on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LS1/stix2/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for LS1+stix2 on input line 17.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/stix2-type1/ls1stix2.fd
 File: ls1stix2.fd 2018/04/02 v2.0.0-latex stix2 LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for LS2/stix2/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for LS2+stix2 on input line 18.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LS2/stix2/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for LS2+stix2 on input line 17.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/stix2-type1/ls2stix2.fd
 File: ls2stix2.fd 2018/04/02 v2.0.0-latex stix2 LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  (c:/Program Files/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count540
+\scratchcounter=\count538
 \scratchdimen=\dimen362
 \scratchbox=\box105
-\nofMPsegments=\count541
-\nofMParguments=\count542
+\nofMPsegments=\count539
+\nofMParguments=\count540
 \everyMPshowfont=\toks59
-\MPscratchCnt=\count543
+\MPscratchCnt=\count541
 \MPscratchDim=\dimen363
-\MPnumerator=\count544
-\makeMPintoPDFobject=\count545
+\MPnumerator=\count542
+\makeMPintoPDFobject=\count543
 \everyMPtoPDFconversion=\toks60
 ) (c:/Program Files/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1495,11 +1510,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@mv@tabular=\count546
-\c@mv@boldtabular=\count547
-LaTeX Info: Command `\dddot' is already robust on input line 18.
-LaTeX Info: Command `\ddddot' is already robust on input line 18.
-\c@lstlisting=\count548
+\c@mv@tabular=\count544
+\c@mv@boldtabular=\count545
+LaTeX Info: Command `\dddot' is already robust on input line 17.
+LaTeX Info: Command `\ddddot' is already robust on input line 17.
+\c@lstlisting=\count546
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks61
@@ -1512,7 +1527,7 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
+* modes: 
 * h-part:(L,W,R)=(35.56593pt, 526.376pt, 35.56593pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
@@ -1526,7 +1541,7 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 * \headsep=21.33955pt
 * \topskip=9.0pt
 * \footskip=30.0pt
-* \marginparwidth=48.0pt
+* \marginparwidth=4.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=8.0pt plus 4.0pt minus 2.0pt
@@ -1534,12 +1549,12 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumntrue
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 18.
+Package hyperref Info: Link coloring ON on input line 17.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
@@ -1555,76 +1570,76 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 18.
-Package biblatex Info: Reference segment=0 on input line 18.
+Package biblatex Info: Reference section=0 on input line 17.
+Package biblatex Info: Reference segment=0 on input line 17.
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen364
 \MT@vwid@rightmargin=\dimen365
-LaTeX Info: Redefining \microtypecontext on input line 18.
-Package microtype Info: Applying patch `item' on input line 18.
-Package microtype Info: Applying patch `toc' on input line 18.
-Package microtype Info: Applying patch `eqnum' on input line 18.
-Package microtype Info: Applying patch `footnote' on input line 18.
-Package microtype Info: Applying patch `verbatim' on input line 18.
-LaTeX Info: Redefining \microtypesetup on input line 18.
+LaTeX Info: Redefining \microtypecontext on input line 17.
+Package microtype Info: Applying patch `item' on input line 17.
+Package microtype Info: Applying patch `toc' on input line 17.
+Package microtype Info: Applying patch `eqnum' on input line 17.
+Package microtype Info: Applying patch `footnote' on input line 17.
+Package microtype Info: Applying patch `verbatim' on input line 17.
+LaTeX Info: Redefining \microtypesetup on input line 17.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 18.
+LaTeX Info: Redefining \showhyphens on input line 17.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+FiraSans-OsF on input line 20.
+LaTeX Font Info:    Trying to load font information for T1+FiraSans-OsF on input line 19.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/fira/T1FiraSans-OsF.fd
 File: T1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraSans-OsF.
 )
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <18> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 20.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 18.0pt on input line 20.
+(Font)              scaled to size 18.0pt on input line 19.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraSans-OsF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 20.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 20.
-LaTeX Font Info:    Trying to load font information for LS1+stix2scr on input line 20.
+(Font)              scaled to size 9.0pt on input line 19.
+LaTeX Font Info:    Trying to load font information for LS1+stix2scr on input line 19.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/stix2-type1/ls1stix2scr.fd
 File: ls1stix2scr.fd 2018/04/02 v2.0.0-latex stix2 script LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stix2ex on input line 20.
+LaTeX Font Info:    Trying to load font information for LS2+stix2ex on input line 19.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/stix2-type1/ls2stix2ex.fd
 File: ls2stix2ex.fd 2018/04/02 v2.0.0-latex stix2 extentions LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stix2frak on input line 20.
+LaTeX Font Info:    Trying to load font information for LS1+stix2frak on input line 19.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/stix2-type1/ls1stix2frak.fd
 File: ls1stix2frak.fd 2018/04/02 v2.0.0-latex stix2 fraktur LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stix2bb on input line 20.
+LaTeX Font Info:    Trying to load font information for LS1+stix2bb on input line 19.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/stix2-type1/ls1stix2bb.fd
 File: ls1stix2bb.fd 2018/04/02 v2.0.0-latex stix2 blackboard LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stix2cal on input line 20.
+LaTeX Font Info:    Trying to load font information for LS2+stix2cal on input line 19.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/stix2-type1/ls2stix2cal.fd
 File: ls2stix2cal.fd 2018/04/02 v2.0.0-latex stix2 calligraphic LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stix2sf on input line 20.
+LaTeX Font Info:    Trying to load font information for LS1+stix2sf on input line 19.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/stix2-type1/ls1stix2sf.fd
 File: ls1stix2sf.fd 2018/04/02 v2.0.0-latex stix2 sans-serif LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stix2tt on input line 20.
+LaTeX Font Info:    Trying to load font information for LS2+stix2tt on input line 19.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/stix2-type1/ls2stix2tt.fd
 File: ls2stix2tt.fd 2018/04/02 v2.0.0-latex stix2 typewriter LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for TS1+stix2 on input line 20.
+LaTeX Font Info:    Trying to load font information for TS1+stix2 on input line 19.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/stix2-type1/ts1stix2.fd
 File: ts1stix2.fd 2018/04/02 v2.0.0-latex stix2 TS1 font definitions
 )
@@ -1632,148 +1647,153 @@ Package microtype Info: Character `textflorin ' is missing
 (microtype)             in font `TS1/stix2/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <6> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 20.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 20.
+(Font)              scaled to size 6.0pt on input line 19.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 20.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 9.0pt on input line 20.
+(Font)              scaled to size 9.0pt on input line 19.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <7.5> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 20.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 7.5pt on input line 20.
-LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 20.
+(Font)              scaled to size 7.5pt on input line 19.
+LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 19.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <5.24997> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 20.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 5.24997pt on input line 20.
+(Font)              scaled to size 5.24997pt on input line 19.
 Package microtype Info: Character `textflorin ' is missing
 (microtype)             in font `TS1/stix2/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 20.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 20.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 20.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 8.0pt on input line 20.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 22.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 22.
+(Font)              scaled to size 10.0pt on input line 21.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 22.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 22.
+(Font)              scaled to size 10.0pt on input line 21.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <9> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 26.
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 26.
+(Font)              scaled to size 9.0pt on input line 32.
 Package microtype Info: Character `textflorin ' is missing
 (microtype)             in font `TS1/stix2/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
 
 
-<figures/basic_balancing.pdf, id=45, 202.7575pt x 43.16125pt>
+<figures/basic_balancing.pdf, id=54, 202.7575pt x 43.16125pt>
 File: figures/basic_balancing.pdf Graphic file (type pdf)
 <use figures/basic_balancing.pdf>
-Package pdftex.def Info: figures/basic_balancing.pdf  used on input line 67.
+Package pdftex.def Info: figures/basic_balancing.pdf  used on input line 77.
 (pdftex.def)             Requested size: 258.188pt x 54.96234pt.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/it' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/bold/it' tried instead on input line 96.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/it' will be
-(Font)              scaled to size 8.0pt on input line 96.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <8> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
+(Font)              scaled to size 8.0pt on input line 78.
 
-Overfull \hbox (6.24602pt too wide) in paragraph at lines 101--123
+
+[1{c:/Program Files/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-t1.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-ts1.enc}
+
+
+{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathit.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathrm.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathscr.enc} <./figures/basic_balancing.pdf>]
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/it' in size <8> not available
+(Font)              Font shape `T1/FiraSans-OsF/bold/it' tried instead on input line 87.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/it' will be
+(Font)              scaled to size 8.0pt on input line 87.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <8> not available
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 92.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 92.
+
+Overfull \hbox (6.24602pt too wide) in paragraph at lines 92--114
  [][] 
  []
 
 
 
-[1{c:/Program Files/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-t1.enc}
-
-
-{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-ts1.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathrm.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathit.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathscr.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathex.enc} <./figures/basic_balancing.pdf>]
-<figures/wire_diagram.pdf, id=93, 689.57625pt x 410.53375pt>
+<figures/wire_diagram.pdf, id=104, 689.57625pt x 410.53375pt>
 File: figures/wire_diagram.pdf Graphic file (type pdf)
 <use figures/wire_diagram.pdf>
-Package pdftex.def Info: figures/wire_diagram.pdf  used on input line 197.
+Package pdftex.def Info: figures/wire_diagram.pdf  used on input line 188.
 (pdftex.def)             Requested size: 258.188pt x 153.71173pt.
 
 
-<figures/physical_model.pdf, id=95, 49.18375pt x 37.13875pt>
+[2{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathex.enc} <./figures/wire_diagram.pdf>]
+<figures/physical_model.pdf, id=307, 49.18375pt x 37.13875pt>
 File: figures/physical_model.pdf Graphic file (type pdf)
 <use figures/physical_model.pdf>
-Package pdftex.def Info: figures/physical_model.pdf  used on input line 217.
+Package pdftex.def Info: figures/physical_model.pdf  used on input line 207.
 (pdftex.def)             Requested size: 154.91437pt x 117.0041pt.
 
+Underfull \vbox (badness 3919) has occurred while \output is active []
 
-[2{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathsf.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathbb.enc} <./figures/wire_diagram.pdf> <./figures/physical_model.pdf>]
-<figures/front_top_side.pdf, id=317, 415.5525pt x 470.75874pt>
+
+
+<figures/front_top_side.pdf, id=313, 415.5525pt x 470.75874pt>
 File: figures/front_top_side.pdf Graphic file (type pdf)
 <use figures/front_top_side.pdf>
-Package pdftex.def Info: figures/front_top_side.pdf  used on input line 245.
+Package pdftex.def Info: figures/front_top_side.pdf  used on input line 234.
 (pdftex.def)             Requested size: 206.55118pt x 233.99243pt.
-<figures/assembly_manual.pdf, id=318, 528.97626pt x 557.08125pt>
+<figures/assembly_manual.pdf, id=314, 528.97626pt x 557.08125pt>
 File: figures/assembly_manual.pdf Graphic file (type pdf)
 <use figures/assembly_manual.pdf>
-Package pdftex.def Info: figures/assembly_manual.pdf  used on input line 252.
+Package pdftex.def Info: figures/assembly_manual.pdf  used on input line 241.
 (pdftex.def)             Requested size: 206.55118pt x 217.52432pt.
 
 
+[3{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathsf.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathbb.enc} <./figures/physical_model.pdf> <./figures/front_top_side.pdf
 
-
-[3 <./figures/front_top_side.pdf> <./figures/assembly_manual.pdf
+pdfTeX warning: pdflatex.exe (file ./figures/front_top_side.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/assembly_manual.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/assembly_manual.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-LaTeX Font Info:    Trying to load font information for T1+FiraMono-TOsF on input line 272.
+LaTeX Font Info:    Trying to load font information for T1+FiraMono-TOsF on input line 261.
  (c:/Program Files/texlive/2025/texmf-dist/tex/latex/fira/T1FiraMono-TOsF.fd
 File: T1FiraMono-TOsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraMono-TOsF.
 )
 LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/m/n' in size <9> not available
-(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 272.
+(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 261.
 LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/regular/n' will be
-(Font)              scaled to size 7.65005pt on input line 272.
+(Font)              scaled to size 7.65005pt on input line 261.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMono-TOsF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 312.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 300.
 LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/m/n' in size <8> not available
-(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 312.
+(Font)              Font shape `T1/FiraMono-TOsF/regular/n' tried instead on input line 300.
 LaTeX Font Info:    Font shape `T1/FiraMono-TOsF/regular/n' will be
-(Font)              scaled to size 6.80005pt on input line 312.
+(Font)              scaled to size 6.80005pt on input line 300.
 
 
 [4{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_d4q673.enc}{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathcal.enc}]
-<figures/balancing_on_table.png, id=414, 1027.84pt x 1284.8pt>
+<figures/balancing_on_table.png, id=419, 1027.84pt x 1284.8pt>
 File: figures/balancing_on_table.png Graphic file (type png)
 <use figures/balancing_on_table.png>
-Package pdftex.def Info: figures/balancing_on_table.png  used on input line 359.
+Package pdftex.def Info: figures/balancing_on_table.png  used on input line 350.
 (pdftex.def)             Requested size: 129.094pt x 161.36418pt.
 
 
-<figures/timeline.pdf, id=420, 142.5325pt x 63.23625pt>
+
+
+[5 <./figures/balancing_on_table.png>]
+<figures/timeline.pdf, id=455, 142.5325pt x 63.23625pt>
 File: figures/timeline.pdf Graphic file (type pdf)
 <use figures/timeline.pdf>
-Package pdftex.def Info: figures/timeline.pdf  used on input line 423.
+Package pdftex.def Info: figures/timeline.pdf  used on input line 414.
 (pdftex.def)             Requested size: 258.188pt x 114.54881pt.
 
 
-[5 <./figures/balancing_on_table.png> <./figures/timeline.pdf>]
 
 
-
-[6
-
-] 
+[6{c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-t1sc.enc} <./figures/timeline.pdf>] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20260402154516 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted cleantemp  --timestamp 20260403003751 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
 (./main.aux)
  ***********
@@ -1785,21 +1805,24 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54359 strings out of 473190
- 1094934 string characters out of 5713728
- 2208908 words of memory out of 5000000
- 76473 multiletter control sequences out of 15000+600000
- 891479 words of font info for 285 fonts, out of 8000000 for 9000
+ 54409 strings out of 473190
+ 1097084 string characters out of 5713728
+ 2144369 words of memory out of 5000000
+ 76497 multiletter control sequences out of 15000+600000
+ 892887 words of font info for 293 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,13n,143p,1074b,1926s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 137i,13n,143p,1109b,1926s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-BoldItalic.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Math.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Bold.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Italic.pfb><c:/Program Files/texlive/2025/texmf-dist/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb>
-Output written on main.pdf (6 pages, 4876636 bytes).
+Output written on main.pdf (6 pages, 4891356 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 471 compressed objects within 5 object streams
- 89 named destinations out of 1000 (max. 500000)
- 73144 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 688 PDF objects out of 1000 (max. 8388607)
+ 507 compressed objects within 6 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 73160 words of extra memory for PDF output out of 74296 (max. 10000000)
 

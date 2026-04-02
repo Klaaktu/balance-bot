@@ -129,7 +129,7 @@
 	\normalsize%
 	\setlength\abovedisplayskip{\eqskip}%
 	\setlength\belowdisplayskip{\eqskip}%
-	\setlength\abovedisplayshortskip{\eqskip-\baselineskip}%
+	\setlength\abovedisplayshortskip{\eqskip}%
 	\setlength\belowdisplayshortskip{\eqskip}%
 }
 
@@ -313,7 +313,7 @@
 \let\@docinfo\@empty
 
 \appto{\maketitle}{%
-  \tauabstract
+%   \tauabstract
   %
   \ifx\@docinfo\@empty
     % Do nothing
@@ -539,7 +539,7 @@
 \RequirePackage[
 	backend=biber,
 	style=ieee,
-	sorting=ynt,
+	% sorting=ynt,
 	citestyle=numeric-comp
 ]{biblatex}
 

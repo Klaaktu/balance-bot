@@ -643,9 +643,6 @@ INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/stix
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/ts1-stix2text.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text.tfm
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text.tfm
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1.tfm
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1.tfm
@@ -655,8 +652,30 @@ INPUT ./figures/basic_balancing.pdf
 INPUT ./figures/basic_balancing.pdf
 INPUT ./figures/basic_balancing.pdf
 INPUT ./figures/basic_balancing.pdf
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text-bold.tfm
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1.tfm
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1--base.tfm
+INPUT c:/Program Files/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Regular-osf-t1.vf
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1--base.tfm
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-t1.enc
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-ts1.enc
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Italic-osf-t1.vf
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1--base.tfm
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1--base.tfm
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathit.enc
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathrm.enc
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathscr.enc
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1--base.tfm
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1--base.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-BoldItalic-osf-t1.tfm
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/stix2-mathrm.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/stix2-mathit.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/stix2-mathscr.tfm
@@ -669,52 +688,33 @@ INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/stix
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/stix2-mathsf.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/stix2-mathsfit.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/stix2-mathtt.tfm
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1--base.tfm
-INPUT c:/Program Files/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc
+INPUT ./figures/wire_diagram.pdf
+INPUT ./figures/wire_diagram.pdf
+INPUT ./figures/wire_diagram.pdf
+INPUT ./figures/wire_diagram.pdf
+INPUT ./figures/wire_diagram.pdf
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Regular-osf-t1.vf
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1--base.tfm
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-t1.enc
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Italic-osf-t1.vf
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Italic-osf-t1--base.tfm
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1--base.tfm
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1--base.tfm
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-t1.vf
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-t1--base.tfm
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-ts1.enc
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathrm.enc
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathit.enc
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathscr.enc
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-BoldItalic-osf-t1.vf
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-BoldItalic-osf-t1--base.tfm
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/vf/public/fira/FiraSans-Regular-osf-t1.vf
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/fira/FiraSans-Regular-osf-t1--base.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathex.enc
-INPUT ./figures/wire_diagram.pdf
-INPUT ./figures/wire_diagram.pdf
-INPUT ./figures/wire_diagram.pdf
-INPUT ./figures/wire_diagram.pdf
-INPUT ./figures/wire_diagram.pdf
 INPUT ./figures/physical_model.pdf
 INPUT ./figures/physical_model.pdf
 INPUT ./figures/physical_model.pdf
 INPUT ./figures/physical_model.pdf
 INPUT ./figures/physical_model.pdf
+INPUT ./figures/front_top_side.pdf
+INPUT ./figures/front_top_side.pdf
+INPUT ./figures/front_top_side.pdf
+INPUT ./figures/front_top_side.pdf
+INPUT ./figures/front_top_side.pdf
+INPUT ./figures/assembly_manual.pdf
+INPUT ./figures/assembly_manual.pdf
+INPUT ./figures/assembly_manual.pdf
+INPUT ./figures/assembly_manual.pdf
+INPUT ./figures/assembly_manual.pdf
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathsf.enc
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-mathbb.enc
-INPUT ./figures/front_top_side.pdf
-INPUT ./figures/front_top_side.pdf
-INPUT ./figures/front_top_side.pdf
-INPUT ./figures/front_top_side.pdf
-INPUT ./figures/front_top_side.pdf
-INPUT ./figures/assembly_manual.pdf
-INPUT ./figures/assembly_manual.pdf
-INPUT ./figures/assembly_manual.pdf
-INPUT ./figures/assembly_manual.pdf
-INPUT ./figures/assembly_manual.pdf
 INPUT c:/Program Files/texlive/2025/texmf-dist/tex/latex/fira/T1FiraMono-TOsF.fd
 INPUT c:/Program Files/texlive/2025/texmf-dist/tex/latex/fira/T1FiraMono-TOsF.fd
 INPUT c:/Program Files/texlive/2025/texmf-dist/tex/latex/fira/T1FiraMono-TOsF.fd
@@ -736,8 +736,9 @@ INPUT ./figures/timeline.pdf
 INPUT ./figures/timeline.pdf
 INPUT ./figures/timeline.pdf
 INPUT ./figures/timeline.pdf
-INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text.tfm
 INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2text-italic.tfm
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/tfm/public/stix2-type1/t1-stix2textsc.tfm
+INPUT c:/Program Files/texlive/2025/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-t1sc.enc
 INPUT main.aux
 INPUT main.run.xml
 OUTPUT main.run.xml
