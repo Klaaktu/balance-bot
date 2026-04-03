@@ -6,6 +6,7 @@ Install these in Arduino IDE Library Manager
 - Adafruit MPU6050 (IMU: Gyro + Acc)
 - QMC5883LCompass by MPrograms (Magnetometer)
 - Adafruit AHRS (Sensor fusion for absolute yaw)
+- L298N by Andrea Lombardo (Motor driver)
 - AdvancedPID by Alby312
 
 ## Calibration
