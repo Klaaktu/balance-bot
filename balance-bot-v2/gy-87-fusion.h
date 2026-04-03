@@ -18,5 +18,5 @@ private:
   Adafruit_Sensor_Calibration_EEPROM cal;
   Adafruit_Sensor *accelerometer, *gyroscope;
   bool init_sensors();
-  bool setup_sensors(int filter_rate);
+  bool setup_sensors();
 };
