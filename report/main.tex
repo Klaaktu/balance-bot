@@ -417,7 +417,7 @@ The detailed timeline is shown in \figref{fig:timeline_gantt_chart}
 \end{figure}
 
 \subsection{Budget}
-This project has light budget requirements. The robot is assembled using off-the-shelf components and programmed using free and open-source libraries. A copy of the parts was provided to us, but they can be acquired online for about \$130 AUD. The cost of 3D printing the prototype chassis was less than $5 AUD.
+The project was designed with cost-efficiency in mind, utilizing off-the-shelf hardware and open-source software libraries. While the primary components were provided for this study, the total retail cost for the electronics and mechanical parts is approximately \$120 AUD. Additionally, the custom chassis was produced via 3D printing for less than \$5 AUD in material costs. This low-cost approach ensures the platform remains accessible for future development and replication.
 
 \section{Conclusion}
 This design review has detailed system architecture, mathematical and physical foundations, and developmental progress of an autonomous balancing robot. By leveraging a Lagrangian dynamic model, the physical chassis was currently optimized with an elevated center of mass. System requirements have been addressed through a robust electronics stack, utilizing an $I^2C$ MPU-6050 IMU. A 500 Hz PID control loop effectively translates error calculations into physical restoration via the L298N motor drivers. Current prototype testing confirms the viability of this design; the robot successfully maintains steady-state dynamic equilibrium with minimal drift and recovers from impulse perturbations up to $13^\circ$.
