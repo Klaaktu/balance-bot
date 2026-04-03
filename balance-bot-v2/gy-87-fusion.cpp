@@ -1,5 +1,10 @@
 #include "gy-87-fusion.h"
 
+bool GY87Fusion::begin(int filter_rate, Adafruit_AHRS_FusionInterface *filter) {
+  this->filter;
+  return init_sensors() && setup_sensors(filter_rate);
+}
+
 bool GY87Fusion::init_sensors() {
   // Adapted from the example. Seems like the intention is to allow it to run
   // degraded (no calibration). However having no sensor will still lock up the
