@@ -26,3 +26,5 @@ MPU6050 max sample rate is 1kHz.
 
 [Alternative rates](https://github.com/kriswiner/MPU9250/issues/363#issuecomment-502226744):
 1k IMU and 100 mag, update rate 5k. Adafruit used 104Hz for IMU and 1k for mag, update rate 100Hz.
+
+RIP, embedded software's documentations are so poor...

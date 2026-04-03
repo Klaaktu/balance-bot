@@ -1,5 +1,11 @@
 #include "gy-87-fusion.h"
 
+bool GY87Fusion::begin(int filter_rate, Adafruit_AHRS_FusionInterface *filter) {
+  this->filter_rate = filter_rate;
+  this->filter = filter;
+  return init_sensors() && setup_sensors();
+}
+
 bool GY87Fusion::init_sensors() {
   // Adapted from the example. Seems like the intention is to allow it to run
   // degraded (no calibration). However having no sensor will still lock up the
@@ -34,7 +40,7 @@ bool GY87Fusion::init_sensors() {
   return success;
 }
 
-bool GY87Fusion::setup_sensors(int filter_rate) {
+bool GY87Fusion::setup_sensors() {
   // Calibration
   compass.setCalibrationOffsets(447.00, 1895.00, -1291.00);
   compass.setCalibrationScales(1.19, 0.80, 1.10);
@@ -50,7 +56,7 @@ bool GY87Fusion::setup_sensors(int filter_rate) {
   // Continuous, 100Hz, 2G, 512 (default oversample, for less noise)
   compass.setMode(0x01, 0x08, 0x00, 0x00);
 
-  filter.begin(filter_rate);
+  this->filter->begin(this->filter_rate);
 
   return true;
 }
@@ -88,11 +94,11 @@ bool GY87Fusion::get_gyro_and_pitch(float *gyro_y, float *pitch) {
 
   read_sensors(gyro, accel, mag);
 
-  filter.update(gyro[0], gyro[1], gyro[2], accel[0], accel[1], accel[2], mag[0],
-                mag[1], mag[2]);
+  this->filter->update(gyro[0], gyro[1], gyro[2], accel[0], accel[1], accel[2],
+                       mag[0], mag[1], mag[2]);
 
   *gyro_y = gyro[1];
-  *pitch = filter.getPitch();
+  *pitch = this->filter->getPitch();
   return true;
 }
 
