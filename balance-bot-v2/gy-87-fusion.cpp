@@ -1,8 +1,9 @@
 #include "gy-87-fusion.h"
 
 bool GY87Fusion::init_sensors() {
-  // Adapted from the example. Seems like the intention is to allow it to run degraded (no calibration).
-  // However having no sensor will lock up the board.
+  // Adapted from the example. Seems like the intention is to allow it to run
+  // degraded (no calibration). However having no sensor will still lock up the
+  // board.
 
   bool success = true;
 
@@ -16,18 +17,19 @@ bool GY87Fusion::init_sensors() {
 
   if (!mpu.begin()) {
     Serial.println(F("ERROR: Failed to find sensors"));
-    while (1) delay(10);
+    while (1)
+      delay(10);
   }
   mpu.setI2CBypass(true);
 
-  compass.init();  // This function returns void, can't check it.
+  compass.init(); // This function returns void, can't check it.
   accelerometer = mpu.getAccelerometerSensor();
   gyroscope = mpu.getGyroSensor();
   // magnetometer = &compass;
 
   accelerometer->printSensorDetails();
   gyroscope->printSensorDetails();
-  //magnetometer->printSensorDetails();  // Does not have equivalent.
+  // magnetometer->printSensorDetails();  // Does not have equivalent.
 
   return success;
 }
@@ -41,7 +43,8 @@ bool GY87Fusion::setup_sensors(int filter_rate) {
   mpu.setAccelerometerRange(MPU6050_RANGE_2_G);
   mpu.setGyroRange(MPU6050_RANGE_250_DEG);
 
-  // set slightly above refresh rate. 1000Hz / (1+8) > 100Hz. Divisor is how many samples to skip.
+  // set slightly above refresh rate. 1000Hz / (1+8) > 100Hz. Divisor is how
+  // many samples to skip.
   // mpu.setSampleRateDivisor(8)
 
   // Continuous, 100Hz, 2G, 512 (default oversample, for less noise)
@@ -60,7 +63,7 @@ bool GY87Fusion::read_sensors(float gyro[3], float accel[3], float mag[3]) {
   mag[2] = (float)compass.getZ();
 
   // Read the motion sensors
-  sensors_event_t e_accel, e_gyro;  // , mag
+  sensors_event_t e_accel, e_gyro; // , mag
   accelerometer->getEvent(&e_accel);
   gyroscope->getEvent(&e_gyro);
 
@@ -85,9 +88,8 @@ bool GY87Fusion::get_gyro_and_pitch(float *gyro_y, float *pitch) {
 
   read_sensors(gyro, accel, mag);
 
-  filter.update(gyro[0], gyro[1], gyro[2],
-                accel[0], accel[1], accel[2],
-                mag[0], mag[1], mag[2]);
+  filter.update(gyro[0], gyro[1], gyro[2], accel[0], accel[1], accel[2], mag[0],
+                mag[1], mag[2]);
 
   *gyro_y = gyro[1];
   *pitch = filter.getPitch();
