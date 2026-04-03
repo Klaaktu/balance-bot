@@ -2,6 +2,7 @@
 // Open algorithm with I2C bypass works just as well.
 // But you need raw readings, so can't use DMP or its interrupt. (The Adafruit lib doesn't support DMP readings either.)
 
+#include <Arduino.h>
 #include <Adafruit_MPU6050.h>
 #include <QMC5883LCompass.h>
 #include <Adafruit_Sensor_Calibration.h>
@@ -11,11 +12,11 @@ const int PRINT_EVERY_N_UPDATES = 10;
 
 // pick your filter! slower == better quality output (Uno can probably only use the fastest)
 //Adafruit_Madgwick filter;  // faster than NXP
-const Adafruit_Mahony filter;  // fastest/smalleset
+Adafruit_Mahony filter;  // fastest/smalleset
 
-const Adafruit_MPU6050 mpu;
-const QMC5883LCompass compass;
-const Adafruit_Sensor_Calibration_EEPROM cal;
+Adafruit_MPU6050 mpu;
+QMC5883LCompass compass;
+Adafruit_Sensor_Calibration_EEPROM cal;
 
 Adafruit_Sensor *accelerometer, *gyroscope;  // , *magnetometer
 
@@ -26,15 +27,15 @@ bool init_sensors() {
   bool success = true;
 
   if (!cal.begin()) {
-    Serial.println("ERROR: Failed to initialize calibration helper");
+    Serial.println(F("ERROR: Failed to initialize calibration helper"));
     success = false;
   } else if (! cal.loadCalibration()) {
-    Serial.println("ERROR: No calibration loaded/found");
+    Serial.println(F("ERROR: No calibration loaded/found"));
     success = false;
   }
 
   if (!mpu.begin()) {
-    Serial.println("ERROR: Failed to find sensors");
+    Serial.println(F("ERROR: Failed to find sensors"));
     while (1) delay(10);
   }
   mpu.setI2CBypass(true);
@@ -72,32 +73,29 @@ bool setup_sensors(int filter_rate) {
 }
 
 // filter.update() takes floats
-bool read(float gyro[3], float accel[3], float mag[3]) {
+bool read_sensors(float gyro[3], float accel[3], float mag[3]) {
   // Magnetometer values are pre-calibrated
   compass.read();
-  mag[0] = compass.getX();
-  mag[1] = compass.getY();
-  mag[2] = compass.getZ();
+  mag[0] = (float)compass.getX();
+  mag[1] = (float)compass.getY();
+  mag[2] = (float)compass.getZ();
 
   // Read the motion sensors
-  sensors_event_t accel, gyro;  // , mag
-  accelerometer -> getEvent(&accel);
-  gyroscope -> getEvent(&gyro);
-  // magnetometer->getEvent(&mag);
+  sensors_event_t e_accel, e_gyro;  // , mag
+  accelerometer -> getEvent(&e_accel);
+  gyroscope -> getEvent(&e_gyro);
   
-  // cal.calibrate(mag);
-  cal.calibrate(accel);
-  cal.calibrate(gyro);
+  cal.calibrate(e_accel);
+  cal.calibrate(e_gyro);
 
   // Gyroscope needs to be converted from Rad/s to Degree/s
-  // the rest are not unit-important
-  gyro[0] = gyro.gyro.x * SENSORS_RADS_TO_DPS;
-  gyro[1] = gyro.gyro.y * SENSORS_RADS_TO_DPS;
-  gyro[2] = gyro.gyro.z * SENSORS_RADS_TO_DPS;
+  gyro[0] = e_gyro.gyro.x * SENSORS_RADS_TO_DPS;
+  gyro[1] = e_gyro.gyro.y * SENSORS_RADS_TO_DPS;
+  gyro[2] = e_gyro.gyro.z * SENSORS_RADS_TO_DPS;
 
-  accel[0] = accel.acceleration.x;
-  accel[1] = accel.acceleration.y;
-  accel[2] = accel.acceleration.z;
+  accel[0] = e_accel.acceleration.x;
+  accel[1] = e_accel.acceleration.y;
+  accel[2] = e_accel.acceleration.z;
 
   return true;
 }
@@ -105,7 +103,8 @@ bool read(float gyro[3], float accel[3], float mag[3]) {
 bool get_gyro_and_pitch(float *gyro_y, float *pitch) {
   float gyro[3]; float accel[3]; float mag[3];
 
-  read(gyro[3], accel[3], mag[3])
+  read_sensors(gyro, accel, mag); 
+  
   // Update the SensorFusion filter
   filter.update(gyro[0], gyro[1], gyro[2], 
                 accel[0], accel[1], accel[2], 
@@ -129,6 +128,7 @@ bool get_gyro_and_pitch(float *gyro_y, float *pitch) {
 //   m[1] = (double)y / scale * 100;
 //   m[2] = (double)z / scale * 100;
 // }
+
 
 // MPU6050 max sample rate is 1kHz.
 
