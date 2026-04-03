@@ -11,6 +11,7 @@ public:
   bool get_gyro_and_pitch(float *gyro_y, float *pitch);
 
 private:
+  int filter_rate;
   Adafruit_AHRS_FusionInterface *filter;
   Adafruit_MPU6050 mpu;
   QMC5883LCompass compass;

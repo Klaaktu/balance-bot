@@ -36,5 +36,5 @@ void loop() {
 
   float gyro_y;
   float pitch;
-  get_gyro_and_pitch(&gyro_y, &pitch);
+  imu.get_gyro_and_pitch(&gyro_y, &pitch);
 }
