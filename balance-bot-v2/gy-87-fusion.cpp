@@ -2,11 +2,7 @@
 // Open algorithm with I2C bypass works just as well.
 // But you need raw readings, so can't use DMP or its interrupt. (The Adafruit lib doesn't support DMP readings either.)
 
-#include <Arduino.h>
-#include <Adafruit_MPU6050.h>
-#include <QMC5883LCompass.h>
-#include <Adafruit_Sensor_Calibration.h>
-#include <Adafruit_AHRS.h>
+#include "gy-87-fusion.h"
 
 const int PRINT_EVERY_N_UPDATES = 10;
 
@@ -39,7 +35,7 @@ bool init_sensors() {
     while (1) delay(10);
   }
   mpu.setI2CBypass(true);
-  
+
   compass.init();  // This function returns void, can't check it.
   accelerometer = mpu.getAccelerometerSensor();
   gyroscope = mpu.getGyroSensor();
@@ -56,7 +52,7 @@ bool setup_sensors(int filter_rate) {
   // Calibration
   compass.setCalibrationOffsets(447.00, 1895.00, -1291.00);
   compass.setCalibrationScales(1.19, 0.80, 1.10);
-  
+
   // set lowest range for high precision
   mpu.setAccelerometerRange(MPU6050_RANGE_2_G);
   mpu.setGyroRange(MPU6050_RANGE_250_DEG);
@@ -84,7 +80,7 @@ bool read_sensors(float gyro[3], float accel[3], float mag[3]) {
   sensors_event_t e_accel, e_gyro;  // , mag
   accelerometer -> getEvent(&e_accel);
   gyroscope -> getEvent(&e_gyro);
-  
+
   cal.calibrate(e_accel);
   cal.calibrate(e_gyro);
 
@@ -103,13 +99,13 @@ bool read_sensors(float gyro[3], float accel[3], float mag[3]) {
 bool get_gyro_and_pitch(float *gyro_y, float *pitch) {
   float gyro[3]; float accel[3]; float mag[3];
 
-  read_sensors(gyro, accel, mag); 
-  
+  read_sensors(gyro, accel, mag);
+
   // Update the SensorFusion filter
-  filter.update(gyro[0], gyro[1], gyro[2], 
-                accel[0], accel[1], accel[2], 
+  filter.update(gyro[0], gyro[1], gyro[2],
+                accel[0], accel[1], accel[2],
                 mag[0], mag[1], mag[2]);
-  
+
   *gyro_y = gyro[1];
   *pitch = filter.getPitch();
   return true;
