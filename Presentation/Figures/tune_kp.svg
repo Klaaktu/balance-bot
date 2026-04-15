@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20.905485mm"
+   height="23.505575mm"
+   viewBox="0 0 20.905485 23.505575"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer2"
+     transform="translate(-32.047256,-238.11051)">
+    <g
+       id="g37">
+      <g
+         id="g20-8-2"
+         transform="matrix(-1,0,0,1,105,70.025677)">
+        <g
+           id="g19-2-7"
+           transform="rotate(51.165836,63.991861,170.15014)">
+          <rect
+             style="fill:#bfbfbf;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+             id="rect19-4-9"
+             width="0.5"
+             height="6.9999952"
+             x="68"
+             y="164" />
+          <circle
+             style="fill:#003399;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+             id="path19-5-5"
+             cx="68.25"
+             cy="164"
+             r="1.5" />
+          <circle
+             style="fill:#bfbfbf;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+             id="path18-6-5-4"
+             cx="12.26429"
+             cy="177.21075"
+             transform="rotate(-18.636076)"
+             r="0.2" />
+        </g>
+        <g
+           id="g18-1-3">
+          <ellipse
+             style="fill:none;fill-opacity:1;stroke:#404040;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             id="path12-7-1"
+             cx="66"
+             cy="174"
+             rx="1.7499954"
+             ry="1.7500018" />
+          <ellipse
+             style="fill:none;fill-opacity:1;stroke:#ffcc00;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
+             id="path15-1-2"
+             cx="66.004173"
+             cy="173.98715"
+             rx="1.3499987"
+             ry="1.3500015" />
+          <path
+             style="fill:none;fill-opacity:1;stroke:#ffcc00;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+             id="path17-1-3"
+             d="m 62.850003,174.5 -1.339077,0.008 0.40625,1.27599 -0.421344,-1.27109 -1.088,0.78067 1.078672,-0.79351 -1.078672,-0.79351 1.088,0.78067 0.421344,-1.27109 -0.40625,1.27599 z"
+             transform="translate(4.5041694,-0.51284417)" />
+          <circle
+             style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+             id="path18-5-3"
+             cx="66"
+             cy="174"
+             r="0.5" />
+        </g>
+      </g>
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g20-8-2"
+         id="use33"
+         transform="translate(0,15.590405)" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g20-8-2"
+         id="use34"
+         transform="matrix(-1,0,0,1,84.999999,-0.02568873)" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g20-8-2"
+         id="use35"
+         transform="matrix(-1,0,0,1,84.999997,15.564716)" />
+      <g
+         id="g10">
+        <text
+           xml:space="preserve"
+           style="font-size:1.41111px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:0.70098;stroke:none;stroke-width:0.16;stroke-linejoin:round;stroke-dasharray:0.16, 0.16"
+           x="36.642601"
+           y="247.05412"
+           id="text8"><tspan
+             id="tspan7"
+             style="stroke-width:0.16"
+             x="36.642601"
+             y="247.05412">P=a%</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.41111px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:0.70098;stroke:none;stroke-width:0.16;stroke-linejoin:round;stroke-dasharray:0.16, 0.16"
+           x="44.955719"
+           y="247.06618"
+           id="text8-9"><tspan
+             id="tspan7-3"
+             style="stroke-width:0.16"
+             x="44.955719"
+             y="247.06618">P=b%</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.41111px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:0.70098;stroke:none;stroke-width:0.16;stroke-linejoin:round;stroke-dasharray:0.16, 0.16"
+           x="42.092964"
+           y="246.9742"
+           id="text9"><tspan
+             id="tspan8"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';stroke-width:0.16"
+             x="42.092964"
+             y="246.9742">≠</tspan></text>
+      </g>
+      <g
+         id="g10-3"
+         transform="translate(-3.093512e-6,13.889481)">
+        <text
+           xml:space="preserve"
+           style="font-size:1.41111px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:0.70098;stroke:none;stroke-width:0.16;stroke-linejoin:round;stroke-dasharray:0.16, 0.16"
+           x="36.642605"
+           y="239.55701"
+           id="text8-6"><tspan
+             id="tspan7-6"
+             style="stroke-width:0.16"
+             x="36.642605"
+             y="239.55701">P=c%</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.41111px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:0.70098;stroke:none;stroke-width:0.16;stroke-linejoin:round;stroke-dasharray:0.16, 0.16"
+           x="44.995335"
+           y="239.56906"
+           id="text8-9-1"><tspan
+             id="tspan7-3-8"
+             style="stroke-width:0.16"
+             x="44.995335"
+             y="239.56906">P=c%</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.41111px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:0.70098;stroke:none;stroke-width:0.16;stroke-linejoin:round;stroke-dasharray:0.16, 0.16"
+           x="42.092964"
+           y="239.47708"
+           id="text9-4"><tspan
+             id="tspan8-9"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';stroke-width:0.16"
+             x="42.092964"
+             y="239.47708">=</tspan></text>
+        <g
+           id="path14"
+           style="opacity:1">
+          <path
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+             d="m 42.300781,234.11133 v 3.23047 h 0.359375 v -3.23047 z"
+             id="path80" />
+          <g
+             id="g77">
+            <g
+               id="path77"
+               style="opacity:1">
+              <path
+                 style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+                 d="m 42.480198,237.96534 -0.54,-0.9342 h 1.08 z"
+                 id="path78" />
+              <path
+                 style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+                 d="m 41.814453,236.95898 0.666016,1.15039 0.664062,-1.15039 z m 0.25,0.14454 h 0.830078 l -0.414062,0.71875 z"
+                 id="path79" />
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g31">
+        <text
+           xml:space="preserve"
+           style="font-size:0.705556px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:0.70098;stroke:none;stroke-width:0.16;stroke-linejoin:round;stroke-dasharray:0.16, 0.16"
+           x="33.390251"
+           y="242.85052"
+           id="text7"><tspan
+             id="tspan4"
+             style="font-size:0.705556px;fill:#000000;stroke:none;stroke-width:0.16"
+             x="33.390251"
+             y="242.85052">Falling</tspan></text>
+        <g
+           id="path30"
+           style="opacity:1">
+          <path
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+             d="m 32.5625,242.01172 v 1.81055 h 0.201172 v -1.81055 z"
+             id="path72" />
+          <g
+             id="g71">
+            <path
+               style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+               d="m 32.292969,243.38672 -0.09961,0.0996 0.470703,0.46875 0.46875,-0.46875 -0.09961,-0.0996 -0.369141,0.37109 z"
+               id="path71" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g31-9"
+         transform="translate(19.618559,-0.00957247)">
+        <text
+           xml:space="preserve"
+           style="font-size:0.705556px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:0.70098;stroke:none;stroke-width:0.16;stroke-linejoin:round;stroke-dasharray:0.16, 0.16"
+           x="30.006321"
+           y="242.85052"
+           id="text7-1"><tspan
+             id="tspan4-3"
+             style="font-size:0.705556px;fill:#000000;stroke:none;stroke-width:0.16"
+             x="30.006321"
+             y="242.85052">Falling</tspan></text>
+        <g
+           id="path30-5"
+           style="opacity:1">
+          <path
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+             d="m 32.5625,242.01172 v 1.81055 h 0.201172 v -1.81055 z"
+             id="path74" />
+          <g
+             id="g73">
+            <path
+               style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+               d="m 32.292969,243.38672 -0.09961,0.0996 0.470703,0.46875 0.46875,-0.46875 -0.09961,-0.0996 -0.369141,0.37109 z"
+               id="path73" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g47"
+         transform="translate(0,15.62636)">
+        <text
+           xml:space="preserve"
+           style="font-size:0.705556px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:0.70098;stroke:none;stroke-width:0.16;stroke-linejoin:round;stroke-dasharray:0.16, 0.16"
+           x="32.945919"
+           y="242.83139"
+           id="text46"><tspan
+             id="tspan46"
+             style="font-size:0.705556px;fill:#000000;stroke:none;stroke-width:0.16"
+             x="32.945919"
+             y="242.83139">Less Falling</tspan></text>
+        <g
+           id="path46"
+           style="opacity:1">
+          <path
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+             d="m 32.5625,242.01172 v 1.81055 h 0.201172 v -1.81055 z"
+             id="path70" />
+          <g
+             id="g69">
+            <path
+               style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+               d="m 32.292969,243.38672 -0.09961,0.0996 0.470703,0.46875 0.46875,-0.46875 -0.09961,-0.0996 -0.369141,0.37109 z"
+               id="path69" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g48"
+         transform="translate(19.618559,15.659433)">
+        <text
+           xml:space="preserve"
+           style="font-size:0.705556px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:0.70098;stroke:none;stroke-width:0.16;stroke-linejoin:round;stroke-dasharray:0.16, 0.16"
+           x="28.92532"
+           y="242.85052"
+           id="text47"><tspan
+             id="tspan47"
+             style="font-size:0.705556px;fill:#000000;stroke:none;stroke-width:0.16"
+             x="28.92532"
+             y="242.85052">Less Falling</tspan></text>
+        <g
+           id="path47"
+           style="opacity:1">
+          <path
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+             d="m 32.5625,242.01172 v 1.81055 h 0.201172 v -1.81055 z"
+             id="path76" />
+          <g
+             id="g75">
+            <path
+               style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+               d="m 32.292969,243.38672 -0.09961,0.0996 0.470703,0.46875 0.46875,-0.46875 -0.09961,-0.0996 -0.369141,0.37109 z"
+               id="path75" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
