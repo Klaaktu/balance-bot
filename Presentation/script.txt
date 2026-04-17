@@ -1,0 +1,57 @@
+Hi everyone. We are Box3. Our project is to design a robot with balancing ability and self-controllability. Today we'll present our design of the robot. I'm Zhihao and I'll introduce the hardware part. Then Zongjun will introduce the software part.
+
+Background
+
+As we can se, robots have been widely applied in our everyday life, such as manufacturing, transporting, and even for researching. There are many kinds of robots, which are specialized to many different areas. For our project, we focus on the 2-wheeled balancing robot. 
+
+Requirements review
+
+The top-level requirements include maintaining the balanced state such that it would never fall. The balancing should be stable, which mean the robot mustn't drift more than half a meter in one second. It should also be robust, which can recover from a fifteen degree perturbation.
+Beyond those, we also set some advanced requirements. The robot should fully control its state, not only the pitch, but also the yaw angle, speed, and even position. Then, it should be able to follow a designed path. It should also adapt to different environments dynamically, such as a peaceful space, or a strong perturbation
+
+System Architecture
+
+Before designing technical details, it's important to have an architecture first. So that we can upgrade and iterate our robot based on the architecture. There are four main parts. Reading states: such as the pitch angle. Checking states: determine how to respond to that state. Feedback control: determine how to control the state. And taking action based on the results from checking states and feedback control
+
+Electronic components
+
+These are the selected electronic components related to the architecture. The inertial measurement unit is responsible for reading states. We can get angular and acceleration information with high resolution. And the communication speed is more than enough to send the states in time. The UNO is used to process the signal with high speed. It's where the logical program runs. It can communicate with IMU with I2C, which is a simple and fast method, and send pulse width modulation for analog signals. The motor driver can control the wheels. There is also a power supply for the UNO and motor driver.
+
+Mechanical Design: Physical Model
+
+The physical structure is essential for the robot. It influences very much on the reading states part and the taking action part. We need to analyze the mechanical model first. This is the simplified model. The mass center of the components has height of l and mass of m. And the rotating wheel is equivalent to  a force F. We can analyze it with Lagrangian mechanics. The Lagrangian is the kinetic energy minus the potential energy. Using Euler-Lagrange equation, we can get this result for angular acceleration. It's a non-linear system, so it's hard to analyze with Laplace transforming. We focus on some common cases. 
+
+Case one, the robot is perfectly balanced, but there comes a tiny perturbation. The angular acceleration becomes this. We want the angle to change very slowly such that the robot can act in time. So, the length, which is in the denominator, should be large. Case two, the robot keeps going but can't restore the angle. In this case, the force is probably around is value. We need to increase it to restore the angle. Case three, the robot is severely unbalanced. The only hope is to make the angular acceleration as negative as possible. So, we need the force to be larger than this, such that the numerator is negative. And the length should be small, such that the value is larger.
+
+We can notice that large force is needed for all the cases. However, the length should be large if we want better balancing performance, while it should be small if we want better controllability. So we decide to focus on the balancing ability first, which requires large l.
+
+Mechanical Design: Chassis and Assemble
+
+We designed the chassis in Autodesk Fusion. The height of the robot is about twenty centimeters. We also downloaded the models of the electronic components to help with the design. Instead of build a whole chassis, we chose to split it into many parts, which is more convenient for future upgrades or replacements. We also do simulations in Autodesk Fusion to test the stability of the structure. Then, we use PrusaSlicer to generate the 3D printing configuration, such as the layer height, the number of perimeter, and the infill percent. We sent it to a 3D printer in makerspace. It took many hours to finish printing. After it's done, we used bolts and nuts to assemble all the components. And then we did the wiring. Sometimes the wiring should change when the code changes. And finally, the robot is assembled
+
+Signal Processing: IMU
+
+The IMU has gyroscopes, which can measure the angular velocities and calculate the yaw, pitch, and roll angles. However, the integral can accumulate the error, and make these angles drift. It also has accelerometers, which can measure the acceleration. Knowing the constant gravity, it can calculate the pitch and roll angles. However, it's noisy. Some IMU also has magnetometer to calculate the yaw angle from the magnetic field of the Earth. To make our result more accurate, we need to fuse the sensors. For example, combine the high frequency part of the gyroscope and the low frequency part of the accelerometer, which is known as complementary filter. There is also a similar filter called Mahony, which use quaternion to calculate
+
+Quaternion can represents the current state like Euler angles. However, it's much more efficient and stable. It shows that an object is rotated around an axis by some amount. It can also be convert to other states, such as Euler angles. It's simple to update the quaternion state, just like this. The omega is just like the angular velocity, but it's converted to the form of quaternion. And this is quaternion production
+
+Signal Processing: PID controller
+
+The angle can deviate from the balanced state. We fix the error by PID controller, whose output is used to drive the motor. There are three parts of PID controller. The proportional part means that the larger the error is, the larger the output is. The integral part means that the longer the error exists, the larger the output is. It's similar to restore from the dynamic equilibrium case here. The derivative part means that the faster the error decreases, the smaller the output is to reduce oscillation.
+
+It's very important to find a good combination of these coefficients. First, we leave other coefficients zero, and tuned the set point, which is the balanced angle, and the Kp together, until the robot falls in both direction with similar probability. It should be able to balance with oscillation now. Then, we tuned the Kd, such that the oscillation becomes weaker. Then, we increase the Ki, such that the robot would not keep moving in one direction without restoring the angle. Further trial is needed to find a good combination
+
+Control Logic
+
+About the control logic, we add code to our architecture. For read state, we calculate the pitch angle, the yaw angle, the acceleration and so on. We can also read the voltage of motor or other useful states. For check states, we can determine whether there is a tiny perturbation or a heavy perturbation. For feedback control, we apply PID controller for angles or even angle velocities. Then, for take action, we control the speed or the direction of the robot.
+
+Current Progress
+
+These are our current progress. Many of the requirements have been achieved. The robot can stably balance itself on a very small table for many minutes. But as you can see, there is still tiny horizontal drift over time, which is likely caused by the asymmetry of the motors. And the robot can rapidly restore the yaw angle after its direction is flipped. And then keep balanced after it restores. And it can also restore from tiny perturbations. However, the max allowed perturbation of this version is only few degrees, which is very small. The result of 13 degree was tested in another version, which has much lower mass center. However, it still doesn't achieve the 15 degree requirement. This problem can be solved by using motors which are much more powerful
+
+Project Management
+
+At the early stage of the project, Lin was responsible for the hardware part, and Yang was responsible for the software part. But later, we found that it's better to design both parts together rather than individually. Therefore, we decided that both of us design a whole robot, but focus on different aspects. Lin is responsible to make better balancing performance, such as locking skill, making the robot face in one direction and keep the robot within a small area, and adaption skill, making the robot change the PID coefficients corresponding to different perturbations. Yang is responsible to make better controllability, such as motion skill, make the robot move freely, and resurrection skill, make the robot be able to restore from a heavy perturbation. We will combine our designs into a single one, which would achieve all the requirements
+
+Thank you for listening
+
